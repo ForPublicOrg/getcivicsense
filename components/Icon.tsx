@@ -2,7 +2,7 @@
 // currentColor, ~1KB each. Used for UI chrome and category labels.
 import type { SVGProps } from 'react';
 
-type IconName =
+export type IconName =
   | 'search'
   | 'chevron'
   | 'arrow-up'
@@ -24,7 +24,8 @@ type IconName =
   | 'child'
   | 'heart'
   | 'drop'
-  | 'bulb';
+  | 'bulb'
+  | 'compass';
 
 const PATHS: Record<IconName, React.ReactNode> = {
   search: (
@@ -128,6 +129,13 @@ const PATHS: Record<IconName, React.ReactNode> = {
     <>
       <path d="M9.5 18h5M10.5 21h3" />
       <path d="M12 3a6 6 0 0 0-3.8 10.6c1 .9 1.3 1.7 1.3 2.4h5c0-.7.3-1.5 1.3-2.4A6 6 0 0 0 12 3z" />
+    </>
+  ),
+  compass: (
+    <>
+      <circle cx="12" cy="12" r="9" />
+      <path d="M15.6 8.4l-2.3 5.5-5.5 2.3 2.3-5.5z" />
+      <circle cx="12" cy="12" r="1" />
     </>
   ),
 };

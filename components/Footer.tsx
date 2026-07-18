@@ -8,14 +8,15 @@ export default function Footer() {
   const { t, locale } = useI18n();
   return (
     <footer className="mt-16 border-t border-line/70">
+      <div className="tricolor-line mx-auto max-w-content" aria-hidden="true" />
       <div className="mx-auto max-w-content px-4 py-10">
         <div className="flex flex-col gap-8 md:flex-row md:justify-between">
           <div className="max-w-md">
             <div className="flex items-center gap-2">
-              <span className="grid h-8 w-8 place-items-center rounded-lg bg-gradient-to-br from-brand to-brand-deep text-white">
-                <Icon name="spark" size={16} />
+              <span className="grid h-8 w-8 place-items-center rounded-lg bg-gradient-to-br from-brand to-brand-deep text-white shadow-soft">
+                <Icon name="compass" size={16} />
               </span>
-              <span className="font-extrabold tracking-tight text-ink">get civic sense</span>
+              <span className="font-extrabold tracking-tight text-ink">{t('brand.name')}</span>
             </div>
             <p className="mt-3 text-sm text-ink-soft">{t('footer.tagline')}</p>
             <p className="mt-2 text-xs text-ink-faint">{t('footer.disclaimer')}</p>
@@ -34,6 +35,7 @@ export default function Footer() {
             <Link href="/sources" className="text-ink-soft hover:text-brand">{t('nav.sources')}</Link>
             <Link href="/about" className="text-ink-soft hover:text-brand">{t('nav.about')}</Link>
             <Link href="/privacy" className="text-ink-soft hover:text-brand">{t('nav.privacy')}</Link>
+            <Link href="/grievance" className="text-ink-soft hover:text-brand">{t('footer.grievance')}</Link>
           </nav>
         </div>
         <div className="mt-8 flex flex-wrap items-center gap-x-2 gap-y-1 border-t border-line/70 pt-4 text-xs text-ink-faint">

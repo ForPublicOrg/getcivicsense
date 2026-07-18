@@ -10,7 +10,13 @@
     "findYours": "Let's find yours.",
     "browse": "Start with a place",
     "featured": "A few to begin with",
-    "everyone": "For everyone. No account, no login, nothing about you is collected."
+    "everyone": "For everyone. No account, no login, nothing about you is collected.",
+    "count": "{places} places · {things} everyday things, every one cited",
+    "langHint": "In {n} languages:",
+    "langMore": "+{n} more",
+    "how1": "See the everyday thing",
+    "how2": "Tap for the real science",
+    "how3": "Now you know - no lecture"
   },
   "nav": {
     "home": "Home",
@@ -47,7 +53,8 @@
     "placeholder": "A place, a habit, or something you saw today",
     "empty": "Type a place, a habit, or something you saw today.",
     "noResult": "No card for that yet - but good one. India's civic life has range.",
-    "count": "{n} found"
+    "count": "{n} found",
+    "seeAll": "See all results"
   },
   "footer": {
     "tagline": "A free, non-partisan, open civic-sense project for India. No logins. No ads first. Nothing collected about you.",
@@ -55,6 +62,7 @@
     "rankPoliticians": "Rank your politician",
     "openSource": "Open source",
     "sibling": "Our sibling project",
+    "grievance": "Grievance / Right to reply",
     "translation": "Translations into India's languages are machine-assisted and still being refined by people. The cited facts, numbers and sources stay in their original words. Found a mistake in your language? Write to us."
   },
   "common": {
