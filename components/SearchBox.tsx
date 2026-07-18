@@ -15,24 +15,30 @@ interface Row {
   keywords: string;
 }
 
-let cache: Promise<Row[]> | null = null;
-function loadIndex(): Promise<Row[]> {
-  if (!cache) {
-    cache = fetch('/search-index.json')
-      .then((r) => (r.ok ? (r.json() as Promise<Row[]>) : []))
-      .catch(() => []);
+const cache = new Map<string, Promise<Row[]>>();
+// Fetch the locale's prebuilt index; if it isn't there yet (locale not
+// translated) fall back to the English index so search always works.
+function loadIndex(locale: string): Promise<Row[]> {
+  const key = locale || 'en';
+  if (!cache.has(key)) {
+    const url = key === 'en' ? '/search-index.json' : `/search-index.${key}.json`;
+    const p = fetch(url)
+      .then((r) => (r.ok ? (r.json() as Promise<Row[]>) : null))
+      .catch(() => null)
+      .then((rows) => rows ?? (key === 'en' ? [] : loadIndex('en')));
+    cache.set(key, p as Promise<Row[]>);
   }
-  return cache;
+  return cache.get(key)!;
 }
 
 export default function SearchBox({ autoFocus = false }: { autoFocus?: boolean }) {
-  const { t } = useI18n();
+  const { t, locale } = useI18n();
   const [rows, setRows] = useState<Row[]>([]);
   const [q, setQ] = useState('');
 
   useEffect(() => {
-    loadIndex().then(setRows);
-  }, []);
+    loadIndex(locale).then(setRows);
+  }, [locale]);
 
   const results = useMemo(() => {
     const term = q.trim().toLowerCase();

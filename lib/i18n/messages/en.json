@@ -18,7 +18,8 @@
     "methodology": "The science",
     "sources": "Sources",
     "search": "Search",
-    "privacy": "Privacy"
+    "privacy": "Privacy",
+    "language": "Language"
   },
   "card": {
     "why": "Why it matters",
@@ -53,11 +54,41 @@
     "disclaimer": "Information, never a verdict. Every fact carries its source and the date we checked it.",
     "rankPoliticians": "Rank your politician",
     "openSource": "Open source",
-    "sibling": "Our sibling project"
+    "sibling": "Our sibling project",
+    "translation": "Translations into India's languages are machine-assisted and still being refined by people. The cited facts, numbers and sources stay in their original words. Found a mistake in your language? Write to us."
   },
   "common": {
     "backHome": "Home",
     "allPlaces": "All places",
     "lastReviewed": "Last reviewed"
+  },
+  "kids": {
+    "cta": "Are you a kid? Start here",
+    "ctaSub": "How to read this - and how to teach your grown-ups",
+    "navLabel": "For kids and new readers",
+    "title": "Hey. You are kind of a superpower.",
+    "intro": "Grown-ups have done some of these things for years without thinking about them. You get to see them fresh - and that is exactly why kids are the best teachers in the house.",
+    "readHeading": "How to read a card",
+    "read1Title": "Look at the picture",
+    "read1": "Every card has a picture and one short line. Read the line out loud. That is the whole idea.",
+    "read2Title": "Tap “Here is the science”",
+    "read2": "Want to know why it matters? Tap the drawer. Real facts, with where they came from and the day we checked them.",
+    "read3Title": "See how sure we are",
+    "read3": "The little badge tells you: a government count, many studies agreeing, or just how something works. We never pretend to know more than we do.",
+    "teachHeading": "How to teach your grown-ups",
+    "teachIntro": "This is the fun part. But nobody likes being told off - so teach the way you would want to be taught.",
+    "teach1Title": "Show, do not scold",
+    "teach1": "Do not say “you are doing it wrong.” Say “look what I learnt today!” and show them the picture.",
+    "teach2Title": "Do it together",
+    "teach2": "Buckle your belt first. Carry your wrapper to the bin. People copy what they see far more than what they are told.",
+    "teach3Title": "One small thing at a time",
+    "teach3": "Not everything at once. Pick one. When it sticks, pick the next.",
+    "teach4Title": "Say “me too”",
+    "teach4": "You have done these things too - everyone has. “I used to do this, now I try not to” is kinder than “you should not.”",
+    "teach5Title": "Be patient, be proud",
+    "teach5": "Old habits change slowly. When your grown-up gets it right, notice it out loud. That is how it grows.",
+    "respect": "Always with love and respect. Your elders have taught you a thousand things. This is just one you get to teach back.",
+    "closer": "You couldn't have known. Now you do. Now go be the reason your street gets a little kinder.",
+    "explore": "Explore the places"
   }
 }

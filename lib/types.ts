@@ -9,7 +9,19 @@ export type EvidenceTier =
   | 'suggestive' // observational / ecological              -> association only, no bare "X%"
   | 'mechanism'; //  cause understood, size not measured    -> NO number
 
-export type SharedResource = 'air' | 'water' | 'time' | 'safety' | 'disease' | 'noise';
+export type SharedResource =
+  | 'air'
+  | 'water'
+  | 'time'
+  | 'safety'
+  | 'disease'
+  | 'noise'
+  | 'nature'
+  | 'health'
+  | 'energy'
+  | 'climate'
+  | 'heritage'
+  | 'culture';
 
 export interface Magnitude {
   value: number;

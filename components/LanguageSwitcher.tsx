@@ -5,7 +5,7 @@ import { useI18n } from '@/lib/i18n/provider';
 import { LOCALES } from '@/lib/i18n/locales';
 
 export default function LanguageSwitcher() {
-  const { locale } = useI18n();
+  const { locale, t } = useI18n();
 
   function onChange(e: React.ChangeEvent<HTMLSelectElement>) {
     const code = e.target.value;
@@ -15,15 +15,16 @@ export default function LanguageSwitcher() {
 
   return (
     <label className="relative">
-      <span className="sr-only">Language</span>
+      <span className="sr-only">{t('nav.language')}</span>
       <select
         value={locale}
         onChange={onChange}
-        className="rounded-full border border-line bg-paper px-3 py-1.5 text-sm font-medium text-ink-soft outline-none focus:border-brand"
+        aria-label={t('nav.language')}
+        className="max-w-[9.5rem] truncate rounded-full border border-line bg-paper px-3 py-1.5 text-sm font-medium text-ink-soft outline-none focus:border-brand"
       >
         {LOCALES.map((l) => (
           <option key={l.code} value={l.code}>
-            {l.native}
+            {l.native === l.english ? l.native : `${l.native} · ${l.english}`}
           </option>
         ))}
       </select>

@@ -16,7 +16,15 @@ type IconName =
   | 'horn'
   | 'bin'
   | 'bus'
-  | 'spark';
+  | 'spark'
+  | 'paw'
+  | 'tree'
+  | 'leaf'
+  | 'monument'
+  | 'child'
+  | 'heart'
+  | 'drop'
+  | 'bulb';
 
 const PATHS: Record<IconName, React.ReactNode> = {
   search: (
@@ -79,6 +87,49 @@ const PATHS: Record<IconName, React.ReactNode> = {
     </>
   ),
   spark: <path d="M12 3v4M12 17v4M3 12h4M17 12h4M6 6l2.5 2.5M15.5 15.5L18 18M18 6l-2.5 2.5M8.5 15.5L6 18" />,
+  paw: (
+    <>
+      <circle cx="6.5" cy="11" r="1.6" />
+      <circle cx="10" cy="7.5" r="1.6" />
+      <circle cx="14" cy="7.5" r="1.6" />
+      <circle cx="17.5" cy="11" r="1.6" />
+      <path d="M12 13c-3 0-5 2-5 4.3C7 19.2 9 20 12 20s5-.8 5-2.7C17 15 15 13 12 13z" />
+    </>
+  ),
+  tree: (
+    <>
+      <path d="M12 21v-6" />
+      <path d="M12 15c-3.6 0-6.5-2.6-6.5-5.8C5.5 5.8 8.4 3 12 3s6.5 2.8 6.5 6.2C18.5 12.4 15.6 15 12 15z" />
+      <path d="M12 12l-2.6-2.6M12 12l2.6-2.6" />
+    </>
+  ),
+  leaf: (
+    <>
+      <path d="M5 19c0-8 6-14 14-14 0 8-6 14-14 14z" />
+      <path d="M5.5 18.5C9.5 15 13 12 17 9" />
+    </>
+  ),
+  monument: (
+    <>
+      <path d="M6 11a6 6 0 0 1 12 0" />
+      <path d="M4 21h16M4.5 11h15" />
+      <path d="M7.5 11v10M12 11v10M16.5 11v10" />
+    </>
+  ),
+  child: (
+    <>
+      <circle cx="12" cy="7" r="3" />
+      <path d="M7 21v-3.5a5 5 0 0 1 10 0V21" />
+    </>
+  ),
+  heart: <path d="M12 20S3.5 15 3.5 8.8C3.5 6 5.6 4.2 8 4.2c1.8 0 3.1 1 4 2.2.9-1.2 2.2-2.2 4-2.2 2.4 0 4.5 1.8 4.5 4.6C20.5 15 12 20 12 20z" />,
+  drop: <path d="M12 3.5s6 6.4 6 10.5a6 6 0 0 1-12 0c0-4.1 6-10.5 6-10.5z" />,
+  bulb: (
+    <>
+      <path d="M9.5 18h5M10.5 21h3" />
+      <path d="M12 3a6 6 0 0 0-3.8 10.6c1 .9 1.3 1.7 1.3 2.4h5c0-.7.3-1.5 1.3-2.4A6 6 0 0 0 12 3z" />
+    </>
+  ),
 };
 
 export default function Icon({

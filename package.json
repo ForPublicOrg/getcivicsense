@@ -14,7 +14,7 @@
     "prebuild": "node tools/build-content.mjs && node tools/validate.mjs",
     "build": "next build",
     "start": "next start",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "node tools/build-content.mjs && tsc --noEmit"
   },
   "dependencies": {
     "clsx": "^2.1.1",

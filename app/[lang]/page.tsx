@@ -10,8 +10,8 @@ const FEATURED = ['the-horn-is-not-a-lift-button', 'bin-the-wrapper', 'wear-a-he
 
 export default async function Home({ params }: { params: Promise<LangParams> }) {
   const { lang } = await params;
-  const { dict } = await getI18n(lang);
-  const featured = getAllBehaviours().filter((b) => FEATURED.includes(b.id));
+  const { locale, dict } = await getI18n(lang);
+  const featured = getAllBehaviours(locale).filter((b) => FEATURED.includes(b.id));
 
   return (
     <div className="mx-auto max-w-content px-4">
@@ -25,6 +25,14 @@ export default async function Home({ params }: { params: Promise<LangParams> }) 
           </span>
         </h1>
         <p className="mt-4 max-w-2xl text-lg text-ink-soft">{t(dict, 'home.heroSub')}</p>
+        <Link
+          href="/for-kids"
+          className="group mt-5 inline-flex items-center gap-2 rounded-full border border-accent/30 bg-accent-soft px-4 py-2 text-sm font-bold text-accent-ink transition hover:border-accent hover:shadow-soft"
+        >
+          <Icon name="child" size={16} />
+          {t(dict, 'kids.cta')}
+          <Icon name="chevron" size={15} className="-rotate-90 transition group-hover:translate-x-0.5" />
+        </Link>
         <div className="mt-5 flex flex-wrap items-center gap-2 text-xs font-medium text-ink-faint">
           <Icon name="shield" size={15} className="text-brand" />
           {t(dict, 'home.everyone')}
@@ -36,7 +44,7 @@ export default async function Home({ params }: { params: Promise<LangParams> }) 
         <h2 id="places" className="mb-3 text-sm font-bold uppercase tracking-wide text-ink-faint">
           {t(dict, 'home.browse')}
         </h2>
-        <CategoryGrid dict={dict} />
+        <CategoryGrid dict={dict} locale={locale} />
       </section>
 
       {/* Featured cards - the two-beat mechanic, live */}

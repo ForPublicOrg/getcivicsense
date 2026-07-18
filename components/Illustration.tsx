@@ -14,7 +14,18 @@ type SceneName =
   | 'seat'
   | 'road'
   | 'bin'
-  | 'bus';
+  | 'bus'
+  | 'dog'
+  | 'pet'
+  | 'nature'
+  | 'tree'
+  | 'sapling'
+  | 'water'
+  | 'energy'
+  | 'ewaste'
+  | 'monument'
+  | 'language'
+  | 'server';
 
 const SCENES: Record<SceneName, React.ReactNode> = {
   helmet: (
@@ -106,6 +117,103 @@ const SCENES: Record<SceneName, React.ReactNode> = {
       <path d="M72 92h96M108 60v32" className="stroke-ink/40" strokeWidth="3" />
       <circle cx="96" cy="122" r="9" className="fill-ink" />
       <circle cx="144" cy="122" r="9" className="fill-ink" />
+    </>
+  ),
+  dog: (
+    <>
+      <ellipse cx="114" cy="104" rx="32" ry="16" className="fill-brand-soft stroke-ink/60" strokeWidth="2.5" />
+      <circle cx="150" cy="90" r="14" className="fill-brand-soft stroke-ink/60" strokeWidth="2.5" />
+      <path d="M150 77c5-5 11-3 11 2l-7 4z" className="fill-brand-deep" />
+      <path d="M94 118v14M106 118v14M124 118v14M136 118v14" className="stroke-ink/60" strokeWidth="4" strokeLinecap="round" />
+      <path d="M84 100c-11-2-15 4-12 13" className="fill-none stroke-ink/60" strokeWidth="4" strokeLinecap="round" />
+      <circle cx="154" cy="88" r="2" className="fill-ink" />
+      <path d="M118 60l3 7 7 .8-5 5 1.2 7-6.2-3.4-6.2 3.4 1.2-7-5-5 7-.8z" className="fill-accent" />
+    </>
+  ),
+  pet: (
+    <>
+      <path d="M104 128c0-22 8-40 20-40s20 18 20 40z" className="fill-brand-soft stroke-ink/60" strokeWidth="2.5" />
+      <circle cx="124" cy="80" r="16" className="fill-brand-soft stroke-ink/60" strokeWidth="2.5" />
+      <path d="M110 70l-4-11 12 5zM138 70l4-11-12 5z" className="fill-brand-deep" />
+      <circle cx="119" cy="80" r="2" className="fill-ink" />
+      <circle cx="129" cy="80" r="2" className="fill-ink" />
+      <path d="M124 85v3" className="stroke-ink/60" strokeWidth="2.5" strokeLinecap="round" />
+      <path d="M150 58c2-4 8-3 8 2 0-5 6-6 8-2 2 5-8 12-8 12s-10-7-8-12z" className="fill-accent" />
+    </>
+  ),
+  nature: (
+    <>
+      <circle cx="152" cy="58" r="12" className="fill-accent" />
+      <path d="M70 124c15-32 30-46 50-46s35 14 50 46z" className="fill-brand-soft stroke-ink/60" strokeWidth="2.5" />
+      <path d="M70 124h100" className="stroke-ink/50" strokeWidth="3" strokeLinecap="round" />
+    </>
+  ),
+  tree: (
+    <>
+      <path d="M120 132v-26" className="stroke-ink/60" strokeWidth="6" strokeLinecap="round" />
+      <path d="M120 40c-18 0-30 13-30 30 0 18 14 30 30 30s30-12 30-30c0-17-12-30-30-30z" className="fill-brand-soft stroke-ink/60" strokeWidth="2.5" />
+      <path d="M120 106V70M120 84l-12-12M120 90l12-12" className="stroke-ink/40" strokeWidth="3" strokeLinecap="round" />
+    </>
+  ),
+  sapling: (
+    <>
+      <path d="M120 132v-32" className="stroke-brand" strokeWidth="4" strokeLinecap="round" />
+      <path d="M120 106c-14 0-22-8-22-18 12 0 22 6 22 18z" className="fill-brand-soft stroke-ink/60" strokeWidth="2.5" />
+      <path d="M120 98c0-12 10-20 22-20 0 12-8 20-22 20z" className="fill-brand-soft stroke-ink/60" strokeWidth="2.5" />
+      <path d="M96 132h48" className="stroke-ink/50" strokeWidth="3" strokeLinecap="round" />
+    </>
+  ),
+  water: (
+    <>
+      <path d="M82 70h22v10" className="fill-none stroke-ink/60" strokeWidth="4" strokeLinecap="round" strokeLinejoin="round" />
+      <rect x="76" y="64" width="10" height="10" rx="2" className="fill-brand-deep" />
+      <path d="M104 84s10 10 10 17a10 10 0 0 1-20 0c0-7 10-17 10-17z" className="fill-brand-soft stroke-ink/60" strokeWidth="2.5" />
+      <path d="M104 92v14" className="stroke-brand" strokeWidth="3" strokeLinecap="round" />
+      <circle cx="130" cy="118" r="4" className="fill-accent/70" />
+      <circle cx="142" cy="110" r="3" className="fill-accent/60" />
+    </>
+  ),
+  energy: (
+    <>
+      <path d="M120 46a24 24 0 0 0-15 42c3.5 3 5 6 5 9h20c0-3 1.5-6 5-9a24 24 0 0 0-15-42z" className="fill-brand-soft stroke-ink/60" strokeWidth="2.5" />
+      <path d="M110 106h20M112 114h16" className="stroke-ink/60" strokeWidth="4" strokeLinecap="round" />
+      <path d="M122 66l-9 14h13l-8 12" className="fill-none stroke-accent" strokeWidth="4" strokeLinecap="round" strokeLinejoin="round" />
+    </>
+  ),
+  ewaste: (
+    <>
+      <rect x="94" y="56" width="34" height="62" rx="6" className="fill-brand-soft stroke-ink/60" strokeWidth="2.5" />
+      <path d="M94 106h34" className="stroke-ink/40" strokeWidth="2.5" />
+      <circle cx="111" cy="112" r="2.5" className="fill-ink/60" />
+      <path d="M150 68a14 14 0 0 1-3 20l3 1.5-1.5 4.5" className="fill-none stroke-accent" strokeWidth="3.5" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M160 94a14 14 0 0 1-18 5l1 3.5-4.5 1.5" className="fill-none stroke-accent" strokeWidth="3.5" strokeLinecap="round" strokeLinejoin="round" />
+    </>
+  ),
+  monument: (
+    <>
+      <path d="M92 74a28 28 0 0 1 56 0z" className="fill-brand-soft stroke-ink/60" strokeWidth="2.5" />
+      <circle cx="120" cy="40" r="5" className="fill-accent" />
+      <path d="M86 74h68" className="stroke-ink/60" strokeWidth="4" strokeLinecap="round" />
+      <path d="M96 74v50M112 74v50M128 74v50M144 74v50" className="stroke-ink/50" strokeWidth="5" strokeLinecap="round" />
+      <path d="M82 128h76" className="stroke-ink/60" strokeWidth="4" strokeLinecap="round" />
+    </>
+  ),
+  language: (
+    <>
+      <path d="M82 64h56a8 8 0 0 1 8 8v24a8 8 0 0 1-8 8h-24l-14 12v-12H82a8 8 0 0 1-8-8V72a8 8 0 0 1 8-8z" className="fill-brand-soft stroke-ink/60" strokeWidth="2.5" />
+      <path d="M96 82h30M96 92h18" className="stroke-brand" strokeWidth="4" strokeLinecap="round" />
+      <path d="M152 50l2.6 5.4 5.4.6-3.8 3.6.8 5.4-5-2.6-5 2.6.8-5.4-3.8-3.6 5.4-.6z" className="fill-accent" />
+    </>
+  ),
+  server: (
+    <>
+      <rect x="88" y="58" width="60" height="20" rx="4" className="fill-brand-soft stroke-ink/60" strokeWidth="2.5" />
+      <rect x="88" y="84" width="60" height="20" rx="4" className="fill-brand-soft stroke-ink/60" strokeWidth="2.5" />
+      <circle cx="98" cy="68" r="2.5" className="fill-ink/60" />
+      <circle cx="98" cy="94" r="2.5" className="fill-ink/60" />
+      <path d="M108 68h28M108 94h28" className="stroke-ink/40" strokeWidth="3" strokeLinecap="round" />
+      <path d="M150 116c0-11 9-17 19-17 0 11-9 17-19 17z" className="fill-accent/60 stroke-accent" strokeWidth="2" />
+      <path d="M150 116c3-4 8-8 13-10" className="fill-none stroke-accent" strokeWidth="2" strokeLinecap="round" />
     </>
   ),
 };

@@ -31,6 +31,38 @@
       "question": "Whose turn is it, really?",
       "blurb": "A queue is just a few people agreeing on the order of things. You are also people.",
       "order": 4
+    },
+    {
+      "id": "animals",
+      "label": "Animals Around Us",
+      "icon": "paw",
+      "question": "Who else calls this street home?",
+      "blurb": "The street dog, the cow at the crossing, the sparrow, the monkey on the wall - we share the city with them, whether we planned to or not.",
+      "order": 5
+    },
+    {
+      "id": "trees",
+      "label": "Trees & the Air",
+      "icon": "tree",
+      "question": "Who planted the shade you're standing in?",
+      "blurb": "A tree is a slow gift from someone you may never meet - and the air it cleans is the air everyone on the street breathes.",
+      "order": 6
+    },
+    {
+      "id": "sustain",
+      "label": "Water, Power & the Future",
+      "icon": "leaf",
+      "question": "Will there be enough left for later?",
+      "blurb": "Water, power, phones, even AI - all of it comes from somewhere and leaves a trace. Growing up as a country means growing up about that too.",
+      "order": 7
+    },
+    {
+      "id": "heritage",
+      "label": "Culture & Heritage",
+      "icon": "monument",
+      "question": "What did we inherit - and what will we hand on?",
+      "blurb": "A language, a craft, an old wall that has watched a thousand monsoons. Once it is truly gone, no one can make another.",
+      "order": 8
     }
   ]
 }

@@ -3,7 +3,7 @@ import { notFound } from 'next/navigation';
 import type { Metadata } from 'next';
 import { getI18n } from '@/lib/i18n/server';
 import { t } from '@/lib/i18n';
-import { LOCALE_CODES } from '@/lib/i18n/locales';
+import { LOCALE_CODES, normaliseLocale } from '@/lib/i18n/locales';
 import { getCategories, getCategory, getBehavioursByCategory, getBehaviour } from '@/lib/content';
 import BehaviourCard from '@/components/BehaviourCard';
 import Icon from '@/components/Icon';
@@ -18,17 +18,17 @@ export function generateStaticParams() {
 }
 
 export async function generateMetadata({ params }: { params: Promise<Params> }): Promise<Metadata> {
-  const { category, behaviour } = await params;
-  const b = getBehaviour(category, behaviour);
+  const { lang, category, behaviour } = await params;
+  const b = getBehaviour(category, behaviour, normaliseLocale(lang));
   return { title: b ? b.title : 'Not found', description: b?.norm };
 }
 
 export default async function BehaviourPage({ params }: { params: Promise<Params> }) {
   const { lang, category, behaviour } = await params;
-  const cat = getCategory(category);
-  const b = getBehaviour(category, behaviour);
+  const { locale, dict } = await getI18n(lang);
+  const cat = getCategory(category, locale);
+  const b = getBehaviour(category, behaviour, locale);
   if (!cat || !b) notFound();
-  const { dict } = await getI18n(lang);
 
   return (
     <div className="mx-auto max-w-2xl px-4 py-8">

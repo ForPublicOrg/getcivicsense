@@ -5,7 +5,7 @@ import { SIBLING_URL, REPO_URL } from '@/lib/site';
 import Icon from './Icon';
 
 export default function Footer() {
-  const { t } = useI18n();
+  const { t, locale } = useI18n();
   return (
     <footer className="mt-16 border-t border-line/70">
       <div className="mx-auto max-w-content px-4 py-10">
@@ -19,8 +19,17 @@ export default function Footer() {
             </div>
             <p className="mt-3 text-sm text-ink-soft">{t('footer.tagline')}</p>
             <p className="mt-2 text-xs text-ink-faint">{t('footer.disclaimer')}</p>
+            {locale !== 'en' && (
+              <p className="mt-3 rounded-xl bg-paper-sink/60 px-3 py-2 text-xs text-ink-faint">
+                {t('footer.translation')}{' '}
+                <a href="mailto:corrections@getcivicsense.org" className="text-brand underline-offset-2 hover:underline">
+                  corrections@getcivicsense.org
+                </a>
+              </p>
+            )}
           </div>
           <nav className="grid grid-cols-2 gap-x-10 gap-y-2.5 text-sm" aria-label="Footer">
+            <Link href="/for-kids" className="text-ink-soft hover:text-brand">{t('kids.navLabel')}</Link>
             <Link href="/methodology" className="text-ink-soft hover:text-brand">{t('nav.methodology')}</Link>
             <Link href="/sources" className="text-ink-soft hover:text-brand">{t('nav.sources')}</Link>
             <Link href="/about" className="text-ink-soft hover:text-brand">{t('nav.about')}</Link>

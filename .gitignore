@@ -7,6 +7,7 @@
 /.next/
 /out/
 next-env.d.ts
+*.tsbuildinfo
 
 # production
 /build
@@ -14,6 +15,8 @@ next-env.d.ts
 # generated static payloads (rebuilt by `npm run content`)
 /public/content/
 /public/search-index.json
+/public/search-index.*.json
+/lib/generated/
 
 # misc
 .DS_Store

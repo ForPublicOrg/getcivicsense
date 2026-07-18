@@ -1,0 +1,114 @@
+[
+  {
+    "id": "speak-your-mother-tongue",
+    "category": "heritage",
+    "title": "Speak your mother tongue. Pass it on.",
+    "norm": "Use your mother tongue at home and teach it to your children - alongside the link languages they'll need for school and work - instead of letting it fall silent.",
+    "wit": "A language doesn't die loudly. It just stops being spoken to children.",
+    "universality": "universal",
+    "affects": ["your children and grandchildren", "the years ahead", "your language community", "every Indian who shares this heritage"],
+    "illustration": "language",
+    "share": "sober",
+    "goesRight": "A language lives only while it is spoken and taught. Pass yours on, and the songs, stories, and knowledge carried in it live on too.",
+    "impact": [
+      {
+        "cause": "Each generation actually speaking and teaching its mother tongue",
+        "mechanism": "Living heritage survives only as long as it is passed person-to-person; a language not spoken to children is not passed on, and is lost with its last speakers",
+        "effect": "The language - and the knowledge and identity it carries - reaches the next generation instead of ending",
+        "shared_resource": "culture",
+        "magnitude": null,
+        "jurisdiction": "IN",
+        "jurisdiction_transplant": false,
+        "evidence_tier": "mechanism",
+        "evidence_type": "illustrative",
+        "source_title": "What is Intangible Cultural Heritage?",
+        "publisher": "UNESCO",
+        "source_url": "https://ich.unesco.org/en/what-is-intangible-heritage-00003",
+        "retrieved_date": "2026-07-18",
+        "supported_by": "The importance of intangible cultural heritage is not the cultural manifestation itself but rather the wealth of knowledge and skills that is transmitted through it from one generation to the next.",
+        "caveat": "UNESCO's general definition of how living heritage passes on, applied here to language, which UNESCO lists as a vehicle of intangible heritage."
+      }
+    ],
+    "closer": "You couldn't have known. Now you do."
+  },
+  {
+    "id": "dont-deface-a-monument",
+    "category": "heritage",
+    "title": "Take photos. Leave the wall alone.",
+    "norm": "Never carve, paint, scratch, stick anything on, or chip a piece off a heritage monument. The damage is permanent - and it's a crime.",
+    "wit": "'Was here' outlives you on that wall, and not in a good way.",
+    "universality": "universal",
+    "affects": ["every future visitor", "the years ahead", "the shared record of the past", "the site's caretakers"],
+    "illustration": "monument",
+    "share": "sober",
+    "goesRight": "Stone and plaster don't heal. Treat a monument as untouchable and it survives whole for the next generation - and you stay on the right side of the law.",
+    "impact": [
+      {
+        "cause": "Carving, painting, scratching, or chipping pieces off a protected monument",
+        "mechanism": "Damage to historic stone and plaster can't be undone; Indian law treats harming a nationally protected monument as a punishable offence for exactly that reason",
+        "effect": "Permanent, unrepairable loss of the monument - and criminal liability for whoever does it",
+        "shared_resource": "heritage",
+        "magnitude": { "value": 100000, "unit": "maximum fine, in rupees", "basis": "AMASR Act 1958, s.30: up to 2 years' imprisonment, or a fine up to Rs 1,00,000, or both" },
+        "jurisdiction": "IN",
+        "jurisdiction_transplant": false,
+        "evidence_tier": "official",
+        "evidence_type": "illustrative",
+        "source_title": "Section 30, The Ancient Monuments and Archaeological Sites and Remains Act, 1958",
+        "publisher": "Government of India (AMASR Act 1958), via Indian Kanoon",
+        "source_url": "https://indiankanoon.org/doc/1079955/",
+        "retrieved_date": "2026-07-18",
+        "supported_by": "destroys, removes, injures, alters, defaces, imperils or misuse a protected monument ... imprisonment which may extend to two years ... fine which may extend to one lakh rupees ... or both",
+        "caveat": "Applies to monuments of national importance under the AMASR Act (fine raised to one lakh rupees in 2010); state-protected and unprotected sites fall under separate laws."
+      }
+    ],
+    "closer": "You couldn't have known. Now you do."
+  },
+  {
+    "id": "keep-a-tradition-alive",
+    "category": "heritage",
+    "title": "Learn the old skill. Teach it on.",
+    "norm": "Learn a craft, song, recipe, or story from those who still hold it - and teach it to someone younger - so the know-how isn't lost when they're gone.",
+    "wit": "A photo of a craft isn't the craft. Only a pair of taught hands is.",
+    "universality": "non_universal",
+    "affects": ["the people who practise it", "the years ahead", "India's shared repertoire", "learners and apprentices"],
+    "illustration": "language",
+    "share": "comic",
+    "goesRight": "A craft lives only in the hands and memory of people who practise it. Learn it from an elder and teach it onward, and it survives - even where a photo would not have saved it.",
+    "impact": [
+      {
+        "cause": "A younger person learning a traditional skill directly from those who hold it",
+        "mechanism": "Traditional crafts pass by hands-on teaching, often within families, not from books; if no one learns from today's holders, the technique goes when they do",
+        "effect": "The skill and its knowledge continue instead of dying out",
+        "shared_resource": "culture",
+        "magnitude": null,
+        "jurisdiction": "IN",
+        "jurisdiction_transplant": false,
+        "evidence_tier": "mechanism",
+        "evidence_type": "illustrative",
+        "source_title": "Traditional brass and copper craft of utensil making among the Thatheras of Jandiala Guru, Punjab, India",
+        "publisher": "UNESCO (Representative List of the Intangible Cultural Heritage of Humanity)",
+        "source_url": "https://ich.unesco.org/en/RL/traditional-brass-and-copper-craft-of-utensil-making-among-the-thatheras-of-jandiala-guru-punjab-india-00845",
+        "retrieved_date": "2026-07-18",
+        "supported_by": "The process of manufacturing is transmitted orally from father to son.",
+        "caveat": "One inscribed example of hand-to-hand transmission, used neutrally - not to privilege any region or community."
+      },
+      {
+        "cause": "Communities keeping living traditions in active practice",
+        "mechanism": "Intangible heritage is 'living' - it survives only by being practised and handed down",
+        "effect": "A sense of identity and continuity carried across generations",
+        "shared_resource": "culture",
+        "magnitude": null,
+        "jurisdiction": "IN",
+        "jurisdiction_transplant": false,
+        "evidence_tier": "mechanism",
+        "evidence_type": "illustrative",
+        "source_title": "What is Intangible Cultural Heritage?",
+        "publisher": "UNESCO",
+        "source_url": "https://ich.unesco.org/en/what-is-intangible-heritage-00003",
+        "retrieved_date": "2026-07-18",
+        "supported_by": "traditions or living expressions inherited from our ancestors and passed on to our descendants"
+      }
+    ],
+    "closer": "You couldn't have known. Now you do."
+  }
+]

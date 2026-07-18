@@ -7,8 +7,8 @@ import { getCategories, countByCategory } from '@/lib/content';
 import Icon from './Icon';
 
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
-export default function CategoryGrid({ dict }: { dict: Dict }) {
-  const categories = getCategories();
+export default function CategoryGrid({ dict, locale }: { dict: Dict; locale?: string }) {
+  const categories = getCategories(locale);
   return (
     <div className="grid grid-cols-1 gap-3 sm:grid-cols-2">
       {categories.map((c) => (
@@ -25,7 +25,7 @@ export default function CategoryGrid({ dict }: { dict: Dict }) {
             <span className="block text-sm text-ink-faint">{c.question}</span>
           </span>
           <span className="ml-auto shrink-0 rounded-full bg-paper-sink px-2.5 py-1 text-xs font-bold text-ink-faint">
-            {countByCategory(c.id)}
+            {countByCategory(c.id, locale)}
           </span>
         </Link>
       ))}
