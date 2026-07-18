@@ -15,6 +15,11 @@ export const metadata: Metadata = {
   },
   description:
     'A free, non-partisan, all-ages civic-sense project for India. See how everyday behaviour touches everyone around you - with the real science one tap behind every card. No logins, nothing collected about you.',
+  icons: {
+    icon: [{ url: '/icon.svg', type: 'image/svg+xml' }],
+    shortcut: '/icon.svg',
+    apple: '/icon.svg',
+  },
   openGraph: {
     title: 'Get Civic Sense',
     description: "Civic sense isn't about them. It's about all of us.",

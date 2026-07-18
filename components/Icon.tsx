@@ -25,7 +25,8 @@ export type IconName =
   | 'heart'
   | 'drop'
   | 'bulb'
-  | 'compass';
+  | 'compass'
+  | 'community';
 
 const PATHS: Record<IconName, React.ReactNode> = {
   search: (
@@ -136,6 +137,16 @@ const PATHS: Record<IconName, React.ReactNode> = {
       <circle cx="12" cy="12" r="9" />
       <path d="M15.6 8.4l-2.3 5.5-5.5 2.3 2.3-5.5z" />
       <circle cx="12" cy="12" r="1" />
+    </>
+  ),
+  community: (
+    <>
+      <circle cx="12" cy="9.5" r="2.6" />
+      <path d="M6.5 18.5v-1a5.5 5.5 0 0 1 11 0v1" />
+      <circle cx="5.4" cy="8" r="1.9" />
+      <path d="M2.4 15.6a3.2 3.2 0 0 1 3-2.4" />
+      <circle cx="18.6" cy="8" r="1.9" />
+      <path d="M21.6 15.6a3.2 3.2 0 0 0-3-2.4" />
     </>
   ),
 };

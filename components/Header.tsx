@@ -14,7 +14,7 @@ export default function Header() {
         <div className="flex h-16 items-center gap-3">
           <Link href="/" className="flex shrink-0 items-center gap-2.5" aria-label={t('brand.name')}>
             <span className="relative grid h-9 w-9 place-items-center overflow-hidden rounded-xl bg-gradient-to-br from-brand to-brand-deep text-white shadow-soft">
-              <Icon name="compass" size={20} />
+              <Icon name="community" size={20} />
             </span>
             <span className="flex flex-col leading-none">
               <span className="text-[15px] font-extrabold tracking-tight text-ink">{t('brand.name')}</span>

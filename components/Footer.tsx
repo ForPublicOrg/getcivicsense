@@ -14,7 +14,7 @@ export default function Footer() {
           <div className="max-w-md">
             <div className="flex items-center gap-2">
               <span className="grid h-8 w-8 place-items-center rounded-lg bg-gradient-to-br from-brand to-brand-deep text-white shadow-soft">
-                <Icon name="compass" size={16} />
+                <Icon name="community" size={16} />
               </span>
               <span className="font-extrabold tracking-tight text-ink">{t('brand.name')}</span>
             </div>
