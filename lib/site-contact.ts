@@ -7,7 +7,7 @@
 // not move an already-built page - it needs a redeploy. The fallback below is
 // what actually ships whenever the var is unset.
 export const CONTACT_EMAIL =
-  process.env.NEXT_PUBLIC_GRIEVANCE_EMAIL || 'corrections@getcivicsense.org';
+  process.env.NEXT_PUBLIC_GRIEVANCE_EMAIL || 'shelock221bholmes@gmail.com';
 
 // Named publicly on /grievance as required by IT Rules 2021 r.3(2)(a), which
 // also requires the officer be resident in India.
