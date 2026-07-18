@@ -18,8 +18,8 @@ export default function AboutPage() {
           the mirror.
         </p>
         <p>
-          <strong className="text-ink">Non-partisan, non-religious, and for everyone.</strong> No accounts, no login, no ads
-          first, and nothing collected about you. The same page serves a seven-year-old and their grandparent - the picture and
+          <strong className="text-ink">Non-partisan, non-religious, and for everyone.</strong> No accounts, no login, and
+          nothing collected about you. The same page serves a seven-year-old and their grandparent - the picture and
           the plain line up top, the evidence in the drawer.
         </p>
         <p>
