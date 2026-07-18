@@ -192,5 +192,69 @@
       }
     ],
     "closer": "You couldn't have known. Now you do."
+  },
+  {
+    "id": "clean-up-after-your-pet",
+    "category": "animals",
+    "title": "Your dog. Your bag. Your job.",
+    "norm": "Carry a bag and pick up after your dog. Faeces left on the path spread worms and germs - most of all to the children who play there.",
+    "wit": "Nobody enjoys the surprise underfoot. Least of all on a good shoe.",
+    "universality": "non_universal",
+    "affects": ["children who play there", "the next person walking", "your neighbours"],
+    "illustration": "scoop",
+    "share": "comic",
+    "goesRight": "A quick scoop keeps the park a place children can sit and roll around in without picking up worms.",
+    "impact": [
+      {
+        "cause": "Dog faeces left in public spaces",
+        "mechanism": "Toxocara canis roundworms in the dog's gut shed eggs in the faeces; the eggs mature in soil and then infect people through the faecal-oral route, from contaminated soil and hands",
+        "effect": "Human toxocariasis, with children most at risk",
+        "shared_resource": "health",
+        "magnitude": null,
+        "jurisdiction": "GLOBAL",
+        "jurisdiction_transplant": false,
+        "evidence_tier": "mechanism",
+        "evidence_type": "illustrative",
+        "source_title": "Toxocara Canis - StatPearls",
+        "publisher": "StatPearls Publishing / NCBI Bookshelf",
+        "source_url": "https://www.ncbi.nlm.nih.gov/books/NBK538524/",
+        "retrieved_date": "2026-07-18",
+        "supported_by": "Children are more prone to infection via the fecal-oral route as they are more likely to consume Toxocara eggs by ingesting soil or other contaminated substances.",
+        "caveat": "The transmission route for Toxocara (the dog roundworm) - a global biological mechanism rather than a measured Indian figure. A peer-reviewed medical reference is cited here."
+      }
+    ],
+    "closer": "You couldn't have known. Now you do."
+  },
+  {
+    "id": "plastic-is-not-cow-food",
+    "category": "animals",
+    "title": "A cow can't tell it's plastic.",
+    "norm": "Tie up food waste so free-roaming cows and dogs can't swallow the plastic with it. Plastic they can't digest piles up inside them and slowly makes them sick.",
+    "wit": "The cow smells last night's dinner. It cannot smell the bag wrapped around it.",
+    "universality": "universal",
+    "affects": ["the street cow", "stray dogs", "whoever cares for that animal"],
+    "illustration": "cow",
+    "share": "comic",
+    "goesRight": "Food scraps tied off and binned mean the street cow eats fodder, not a bag that will sit in its stomach for years.",
+    "impact": [
+      {
+        "cause": "Food waste littered in plastic bags where free-roaming cattle graze",
+        "mechanism": "Cattle swallow plastic while grazing on garbage; plastic cannot be digested or passed in dung, so it accumulates in the rumen and causes impaction, obstruction and loss of appetite",
+        "effect": "Ruminal impaction in free-roaming cattle, leaving them unable to feed and severely ill",
+        "shared_resource": "nature",
+        "magnitude": null,
+        "jurisdiction": "IN",
+        "jurisdiction_transplant": false,
+        "evidence_tier": "suggestive",
+        "evidence_type": "illustrative",
+        "source_title": "Ruminal impaction due to plastic materials - an increasing threat to ruminants and its impact on human health in developing countries",
+        "publisher": "Veterinary World (peer-reviewed); via PubMed Central (NCBI)",
+        "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6200578/",
+        "retrieved_date": "2026-07-18",
+        "supported_by": "Animals in these areas graze on plastic garbage leading to the ingestion of plastic waste materials and development of ruminal impaction due to plastic materials.",
+        "caveat": "A peer-reviewed veterinary review of stray and free-roaming ruminants across developing countries, India among them; no clean measured figure is printed, and it describes impaction and illness rather than a verified cause of death."
+      }
+    ],
+    "closer": "You couldn't have known. Now you do."
   }
 ]

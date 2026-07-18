@@ -63,6 +63,14 @@
       "question": "What did we inherit - and what will we hand on?",
       "blurb": "A language, a craft, an old wall that has watched a thousand monsoons. Once it is truly gone, no one can make another.",
       "order": 8
+    },
+    {
+      "id": "respect",
+      "label": "People Around Us",
+      "icon": "heart",
+      "question": "Who else deserves the space you take?",
+      "blurb": "The woman on the late bus, a person of another gender, someone who can't manage the step - civic sense is also, simply, how we treat each other when nobody is making us.",
+      "order": 9
     }
   ]
 }

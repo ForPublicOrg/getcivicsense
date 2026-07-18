@@ -210,5 +210,37 @@
       }
     ],
     "closer": "You couldn't have known. Now you do."
+  },
+  {
+    "id": "dont-waste-food",
+    "category": "sustain",
+    "title": "Take what you'll eat. Finish what you take.",
+    "norm": "Serve a little and go back for more, rather than piling a plate and binning half. Wasted food throws away all the water, land and work that grew it.",
+    "wit": "The buffet is not a competition, and your plate is not a scoreboard.",
+    "universality": "universal",
+    "affects": ["the water and land that grew it", "the climate", "someone who went hungry that day"],
+    "illustration": "foodwaste",
+    "share": "comic",
+    "goesRight": "A plate finished, or leftovers saved for later, honours everything it took to grow the food - and the person who had none.",
+    "impact": [
+      {
+        "cause": "Avoidable household and consumer food waste",
+        "mechanism": "Growing food consumes water, land and energy that are all wasted when it is thrown away; food sent to landfill rots without air and releases methane, a potent greenhouse gas",
+        "effect": "Wasted natural resources and greenhouse-gas emissions, while food that could have fed people is lost",
+        "shared_resource": "climate",
+        "magnitude": { "value": 1.3, "unit": "billion tonnes of edible food lost and wasted each year", "basis": "global, FAO estimate" },
+        "jurisdiction": "GLOBAL",
+        "jurisdiction_transplant": true,
+        "evidence_tier": "strong",
+        "evidence_type": "modelled",
+        "source_title": "Understanding Food Loss and Waste - Why Are We Losing and Wasting Food?",
+        "publisher": "Foods (MDPI, 2019, peer-reviewed); via PubMed Central (NCBI)",
+        "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6723314/",
+        "retrieved_date": "2026-07-18",
+        "supported_by": "approximately one-third of all produced foods (1.3 billion tons of edible food) for human consumption is lost and wasted every year",
+        "caveat": "A widely-cited global FAO estimate, shown for scale rather than as an Indian figure; food waste in landfill also emits methane, a greenhouse gas far more warming than carbon dioxide."
+      }
+    ],
+    "closer": "You couldn't have known. Now you do."
   }
 ]

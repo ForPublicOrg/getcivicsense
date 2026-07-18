@@ -92,5 +92,132 @@
       }
     ],
     "closer": "You couldn't have known. Now you do."
+  },
+  {
+    "id": "cross-at-the-crossing",
+    "category": "roads",
+    "title": "Cross where it's meant for crossing.",
+    "norm": "Use the zebra crossing or the foot-over-bridge, and cross when it's your turn - don't dart between moving cars to save a minute.",
+    "wit": "A gap in the traffic is not a door. It's a dare.",
+    "universality": "universal",
+    "affects": ["you", "the driver who can't stop in time", "your family waiting at home"],
+    "illustration": "crossing",
+    "share": "comic",
+    "goesRight": "At a marked crossing the drivers expect you - so the one place you're most visible is also the safest place to step out.",
+    "impact": [
+      {
+        "cause": "Pedestrians crossing away from zebra crossings or foot-over-bridges",
+        "mechanism": "Without marked crossings or foot-over-bridges, pedestrians share the carriageway with fast traffic that cannot stop in time.",
+        "effect": "Pedestrians are one of the largest groups of road-crash deaths in India.",
+        "shared_resource": "safety",
+        "magnitude": { "value": 32825, "unit": "pedestrians killed", "basis": "India, 2022" },
+        "jurisdiction": "IN",
+        "jurisdiction_transplant": false,
+        "evidence_tier": "official",
+        "evidence_type": "measured",
+        "source_title": "Road Accidents in India 2022",
+        "publisher": "Ministry of Road Transport & Highways (MoRTH)",
+        "source_url": "https://morth.gov.in/backend/documents/uploaded/1755600426_RA_2022_30_Oct.pdf",
+        "retrieved_date": "2026-07-18",
+        "supported_by": "Pedestrians are the next highest victim of road accident death with a share of 19.5 percent in 2022.",
+        "caveat": "The report body states the 19.5 percent pedestrian share; the exact count of 32,825 pedestrians killed in 2022 is from the report's Table 4.4 (persons killed by road-user category)."
+      }
+    ],
+    "closer": "You couldn't have known. Now you do."
+  },
+  {
+    "id": "stop-at-the-red",
+    "category": "roads",
+    "title": "Red means red. Even at 2 a.m.",
+    "norm": "Stop at the red light and stay on your own side of the road. An empty-looking junction is exactly where the fast, blind crashes happen.",
+    "wit": "The light turns green in ninety seconds. A crash lasts the rest of your life.",
+    "universality": "non_universal",
+    "affects": ["you", "whoever has the green", "the pedestrian halfway across"],
+    "illustration": "signal",
+    "share": "comic",
+    "goesRight": "When everyone trusts the signal, the junction just works - no game of chicken, no guessing who goes first.",
+    "impact": [
+      {
+        "cause": "Jumping red lights (and driving on the wrong side)",
+        "mechanism": "Entering an intersection against the signal throws a vehicle into cross-traffic that has right of way, causing high-speed side-on collisions.",
+        "effect": "Red-light jumping and wrong-side driving are recognised fatal traffic-rule violations in India.",
+        "shared_resource": "safety",
+        "magnitude": { "value": 1462, "unit": "persons killed by jumping red lights", "basis": "India, 2022" },
+        "jurisdiction": "IN",
+        "jurisdiction_transplant": false,
+        "evidence_tier": "official",
+        "evidence_type": "measured",
+        "source_title": "Road Accidents in India 2022",
+        "publisher": "Ministry of Road Transport & Highways (MoRTH)",
+        "source_url": "https://morth.gov.in/backend/documents/uploaded/1755600426_RA_2022_30_Oct.pdf",
+        "retrieved_date": "2026-07-18",
+        "supported_by": "Drunken driving/consumption of alcohol & drugs, jumping of red light and use of mobile phones taken together accounted for 7.4 percent of total accidents and 8.3 per cent of total deaths.",
+        "caveat": "The exact counts are from the report's Table 3.1 (accidents by type of traffic-rule violation): jumping the red light killed 1,462 people and driving on the wrong side killed 9,094 in 2022. The prose sentence reports these violations combined."
+      }
+    ],
+    "closer": "You couldn't have known. Now you do."
+  },
+  {
+    "id": "eyes-up-phone-down",
+    "category": "roads",
+    "title": "The message can wait. The truck can't.",
+    "norm": "Don't text, scroll or take calls while driving or riding. If it truly can't wait, pull over first.",
+    "wit": "You can reply now, or you can arrive. Pick one.",
+    "universality": "non_universal",
+    "affects": ["you", "everyone in front of you", "the pedestrian you didn't see"],
+    "illustration": "phonedrive",
+    "share": "comic",
+    "goesRight": "Eyes on the road for the whole ride means you actually see the child, the pothole, the sudden brake - in time to stop.",
+    "impact": [
+      {
+        "cause": "Using a mobile phone while driving",
+        "mechanism": "Looking at or talking on a phone takes the driver's eyes and attention off the road, lengthening reaction time to hazards.",
+        "effect": "Mobile-phone use while driving is a recognised cause of thousands of road deaths a year in India.",
+        "shared_resource": "safety",
+        "magnitude": { "value": 3395, "unit": "persons killed", "basis": "India, 2022" },
+        "jurisdiction": "IN",
+        "jurisdiction_transplant": false,
+        "evidence_tier": "official",
+        "evidence_type": "measured",
+        "source_title": "Road Accidents in India 2022",
+        "publisher": "Ministry of Road Transport & Highways (MoRTH)",
+        "source_url": "https://morth.gov.in/backend/documents/uploaded/1755600426_RA_2022_30_Oct.pdf",
+        "retrieved_date": "2026-07-18",
+        "supported_by": "Drunken driving/consumption of alcohol & drugs, jumping of red light and use of mobile phones taken together accounted for 7.4 percent of total accidents and 8.3 per cent of total deaths.",
+        "caveat": "The exact death count for mobile-phone use (3,395 in 2022, from 7,558 accidents) is from the report's Table 3.1; the prose sentence names the cause but reports the three violations combined."
+      }
+    ],
+    "closer": "You couldn't have known. Now you do."
+  },
+  {
+    "id": "dont-drink-and-drive",
+    "category": "roads",
+    "title": "Drank? Hand over the keys.",
+    "norm": "Never drive or ride after drinking. Take a cab, call someone, or wait it out - a few hours saved is never worth a life.",
+    "universality": "non_universal",
+    "affects": ["you", "everyone else on the road", "two families"],
+    "illustration": "nodrink",
+    "share": "sober",
+    "goesRight": "Keys handed over after a drink is the cheapest insurance there is - everyone gets home, including the strangers you would never have met.",
+    "impact": [
+      {
+        "cause": "Drunken driving / driving after consuming alcohol",
+        "mechanism": "Alcohol slows reaction time and impairs judgment and coordination, so the driver cannot respond to hazards in time.",
+        "effect": "Drunken driving is a recognised cause of thousands of road deaths a year in India.",
+        "shared_resource": "safety",
+        "magnitude": { "value": 4201, "unit": "persons killed", "basis": "India, 2022" },
+        "jurisdiction": "IN",
+        "jurisdiction_transplant": false,
+        "evidence_tier": "official",
+        "evidence_type": "measured",
+        "source_title": "Road Accidents in India 2022",
+        "publisher": "Ministry of Road Transport & Highways (MoRTH)",
+        "source_url": "https://morth.gov.in/backend/documents/uploaded/1755600426_RA_2022_30_Oct.pdf",
+        "retrieved_date": "2026-07-18",
+        "supported_by": "Drunken driving/consumption of alcohol & drugs, jumping of red light and use of mobile phones taken together accounted for 7.4 percent of total accidents and 8.3 per cent of total deaths.",
+        "caveat": "The exact death count for drunken driving (4,201 in 2022, from 10,080 accidents) is from the report's Table 3.1; MoRTH notes this violation is likely under-reported."
+      }
+    ],
+    "closer": "You couldn't have known. Now you do."
   }
 ]

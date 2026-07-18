@@ -60,5 +60,68 @@
       }
     ],
     "closer": "You couldn't have known. Now you do."
+  },
+  {
+    "id": "hold-the-line",
+    "category": "transport",
+    "title": "The queue is holding. So can you.",
+    "norm": "Join the back of the line and wait your turn. Cutting in doesn't shorten the wait - it just moves it onto everyone behind you.",
+    "wit": "A queue is a small miracle: strangers agreeing on an order. Don't be the one who breaks it.",
+    "universality": "universal",
+    "affects": ["everyone behind you", "the person who was actually next", "the whole line's patience"],
+    "illustration": "queue",
+    "share": "comic",
+    "goesRight": "When everyone holds the line, the wait is shorter and fairer than any shoving scrum could ever be.",
+    "impact": [
+      {
+        "cause": "Cutting in or jumping the queue instead of waiting your turn",
+        "mechanism": "A queue is a first-come, first-served ordering held up by a shared social norm; cutting the line breaks that norm and takes the place and time that belong to those who waited",
+        "effect": "The fair ordering collapses and everyone behind loses their rightful place and waits longer",
+        "shared_resource": "time",
+        "magnitude": null,
+        "jurisdiction": "GLOBAL",
+        "jurisdiction_transplant": false,
+        "evidence_tier": "mechanism",
+        "evidence_type": "illustrative",
+        "source_title": "Queue area",
+        "publisher": "Wikipedia (Wikimedia Foundation)",
+        "source_url": "https://en.wikipedia.org/wiki/Queue_area",
+        "retrieved_date": "2026-07-18",
+        "supported_by": "Queue areas are places in which people queue (first-come, first-served) for goods or services.",
+        "caveat": "An openly-checkable statement of the first-come, first-served queue norm - the fairness a line depends on - not an India-specific statistic."
+      }
+    ],
+    "closer": "You couldn't have known. Now you do."
+  },
+  {
+    "id": "dont-push-in-a-crush",
+    "category": "transport",
+    "title": "In a crowd, don't push.",
+    "norm": "In a dense crowd - a platform, a gate, a gathering - don't push forward. Pressure builds body against body until people can't breathe or even stand.",
+    "universality": "universal",
+    "affects": ["everyone packed around you", "children and elders in the crush", "you"],
+    "illustration": "crowd",
+    "share": "sober",
+    "goesRight": "A crowd that moves in slow, patient steps lets everyone through - and everyone home.",
+    "impact": [
+      {
+        "cause": "Pushing forward in a dense, tightly packed crowd",
+        "mechanism": "In a very dense crowd, pushing and leaning pass horizontal force from body to body, and that pressure squeezes people's chests so they cannot breathe",
+        "effect": "Compressive asphyxia - the cause of virtually all crowd-crush deaths - as people are crushed where they stand",
+        "shared_resource": "safety",
+        "magnitude": null,
+        "jurisdiction": "GLOBAL",
+        "jurisdiction_transplant": false,
+        "evidence_tier": "mechanism",
+        "evidence_type": "illustrative",
+        "source_title": "Behaviour and Mechanics of Crowd Crush Disasters",
+        "publisher": "Risk Frontiers (Paul Somerville)",
+        "source_url": "https://riskfrontiers.com/insights/behaviour-and-mechanics-of-crowd-crush-disasters/",
+        "retrieved_date": "2026-07-18",
+        "supported_by": "Horizontal forces sufficient to cause compressive asphyxia are more dynamic as people push off against each other to obtain breathing space.",
+        "caveat": "A crowd-physics source explaining how crush deaths happen, not an India-specific casualty count; no official Indian stampede figure could be verified from a citable source for this card."
+      }
+    ],
+    "closer": "You couldn't have known. Now you do."
   }
 ]

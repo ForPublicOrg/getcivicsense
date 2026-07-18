@@ -25,7 +25,26 @@ type SceneName =
   | 'ewaste'
   | 'monument'
   | 'language'
-  | 'server';
+  | 'server'
+  | 'crossing'
+  | 'signal'
+  | 'phonedrive'
+  | 'nodrink'
+  | 'speaker'
+  | 'silence'
+  | 'spit'
+  | 'segregate'
+  | 'smoke'
+  | 'bag'
+  | 'toilet'
+  | 'queue'
+  | 'crowd'
+  | 'scoop'
+  | 'cow'
+  | 'foodwaste'
+  | 'genders'
+  | 'equal'
+  | 'space';
 
 const SCENES: Record<SceneName, React.ReactNode> = {
   helmet: (
@@ -214,6 +233,165 @@ const SCENES: Record<SceneName, React.ReactNode> = {
       <path d="M108 68h28M108 94h28" className="stroke-ink/40" strokeWidth="3" strokeLinecap="round" />
       <path d="M150 116c0-11 9-17 19-17 0 11-9 17-19 17z" className="fill-accent/60 stroke-accent" strokeWidth="2" />
       <path d="M150 116c3-4 8-8 13-10" className="fill-none stroke-accent" strokeWidth="2" strokeLinecap="round" />
+    </>
+  ),
+  crossing: (
+    <>
+      <path d="M92 60v72M112 60v72M132 60v72" className="stroke-ink/25" strokeWidth="10" strokeLinecap="round" />
+      <circle cx="156" cy="66" r="9" className="fill-accent" />
+      <path d="M156 76v22M156 84l-10 5M156 84l10 5M156 98l-8 16M156 98l8 16" className="stroke-accent" strokeWidth="4" strokeLinecap="round" />
+    </>
+  ),
+  signal: (
+    <>
+      <rect x="102" y="46" width="34" height="76" rx="11" className="fill-brand-soft stroke-ink/60" strokeWidth="2.5" />
+      <circle cx="119" cy="63" r="8" className="fill-accent" />
+      <circle cx="119" cy="84" r="8" className="fill-ink/20" />
+      <circle cx="119" cy="105" r="8" className="fill-brand" />
+      <path d="M119 122v10" className="stroke-ink/60" strokeWidth="4" strokeLinecap="round" />
+    </>
+  ),
+  phonedrive: (
+    <>
+      <circle cx="110" cy="98" r="32" className="fill-none stroke-ink/60" strokeWidth="4" />
+      <circle cx="110" cy="98" r="8" className="fill-brand" />
+      <path d="M110 66v20M78 98h20M142 98h-20" className="stroke-ink/50" strokeWidth="3" strokeLinecap="round" />
+      <rect x="140" y="58" width="24" height="40" rx="5" className="fill-brand-soft stroke-ink/60" strokeWidth="2.5" />
+      <path d="M146 68h12M146 76h9" className="stroke-accent" strokeWidth="3" strokeLinecap="round" />
+    </>
+  ),
+  nodrink: (
+    <>
+      <path d="M104 66h32l-4 26a12 12 0 0 1-24 0z" className="fill-brand-soft stroke-ink/60" strokeWidth="2.5" />
+      <path d="M120 104v18M110 128h20" className="stroke-ink/60" strokeWidth="3" strokeLinecap="round" />
+      <path d="M92 60l56 56" className="stroke-accent" strokeWidth="5" strokeLinecap="round" />
+    </>
+  ),
+  speaker: (
+    <>
+      <path d="M84 100a36 36 0 0 1 72 0" className="fill-none stroke-ink/60" strokeWidth="4" strokeLinecap="round" />
+      <rect x="76" y="96" width="16" height="28" rx="7" className="fill-brand-soft stroke-ink/60" strokeWidth="2.5" />
+      <rect x="148" y="96" width="16" height="28" rx="7" className="fill-brand-soft stroke-ink/60" strokeWidth="2.5" />
+      <path d="M150 42l3 7 7 .8-5 5 1.2 7-6.2-3.4-6.2 3.4 1.2-7-5-5 7-.8z" className="fill-accent" />
+    </>
+  ),
+  silence: (
+    <>
+      <path d="M104 102V86a16 16 0 0 1 32 0v16l6 8h-44z" className="fill-brand-soft stroke-ink/60" strokeWidth="2.5" />
+      <path d="M114 118a6 6 0 0 0 12 0" className="fill-none stroke-ink/60" strokeWidth="2.5" strokeLinecap="round" />
+      <path d="M92 62l56 56" className="stroke-accent" strokeWidth="5" strokeLinecap="round" />
+    </>
+  ),
+  spit: (
+    <>
+      <path d="M120 72s16 20 16 32a16 16 0 0 1-32 0c0-12 16-32 16-32z" className="fill-brand-soft stroke-ink/60" strokeWidth="2.5" />
+      <path d="M112 106a8 8 0 0 0 8 8" className="fill-none stroke-brand" strokeWidth="3" strokeLinecap="round" />
+      <path d="M92 66l56 56" className="stroke-accent" strokeWidth="5" strokeLinecap="round" />
+    </>
+  ),
+  segregate: (
+    <>
+      <path d="M82 88h30l-3 42a5 5 0 0 1-5 5H90a5 5 0 0 1-5-5z" className="fill-brand-soft stroke-ink/60" strokeWidth="2.5" />
+      <path d="M78 88h38M93 78h8v10" className="fill-none stroke-ink/60" strokeWidth="3.5" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M128 88h30l-3 42a5 5 0 0 1-5 5h-14a5 5 0 0 1-5-5z" className="fill-brand-soft stroke-ink/60" strokeWidth="2.5" />
+      <path d="M124 88h38M139 78h8v10" className="fill-none stroke-ink/60" strokeWidth="3.5" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M96 104l4 5-4 5" className="fill-none stroke-accent" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M143 104v12" className="stroke-accent" strokeWidth="3" strokeLinecap="round" />
+    </>
+  ),
+  smoke: (
+    <>
+      <path d="M120 130c-13 0-23-9-23-22 0-13 11-21 9-34 9 5 15 11 15 19 4-3 6-9 5-15 10 8 17 19 17 30 0 13-10 22-23 22z" className="fill-brand-soft stroke-ink/60" strokeWidth="2.5" />
+      <path d="M92 60l56 56" className="stroke-accent" strokeWidth="5" strokeLinecap="round" />
+    </>
+  ),
+  bag: (
+    <>
+      <path d="M94 86h52l5 44a6 6 0 0 1-6 7H95a6 6 0 0 1-6-7z" className="fill-brand-soft stroke-ink/60" strokeWidth="2.5" />
+      <path d="M106 86a14 14 0 0 1 28 0" className="fill-none stroke-ink/60" strokeWidth="3.5" strokeLinecap="round" />
+      <path d="M112 118c0-11 9-17 19-17 0 11-9 17-19 17z" className="fill-accent/50 stroke-accent" strokeWidth="2" />
+    </>
+  ),
+  toilet: (
+    <>
+      <rect x="98" y="52" width="18" height="24" rx="3" className="fill-brand-soft stroke-ink/60" strokeWidth="2.5" />
+      <path d="M96 80h38v8a19 19 0 0 1-38 0z" className="fill-brand-soft stroke-ink/60" strokeWidth="2.5" />
+      <path d="M108 106l-4 22h26l-4-22" className="fill-brand-soft stroke-ink/60" strokeWidth="2.5" />
+      <path d="M146 60a12 12 0 0 1 0 22" className="fill-none stroke-accent" strokeWidth="3.5" strokeLinecap="round" />
+    </>
+  ),
+  queue: (
+    <>
+      <circle cx="86" cy="74" r="10" className="fill-brand-soft stroke-ink/60" strokeWidth="2.5" />
+      <path d="M76 120v-16a10 10 0 0 1 20 0v16z" className="fill-brand-soft stroke-ink/60" strokeWidth="2.5" />
+      <circle cx="118" cy="74" r="10" className="fill-brand-soft stroke-ink/60" strokeWidth="2.5" />
+      <path d="M108 120v-16a10 10 0 0 1 20 0v16z" className="fill-brand-soft stroke-ink/60" strokeWidth="2.5" />
+      <circle cx="150" cy="74" r="10" className="fill-accent" />
+      <path d="M140 120v-16a10 10 0 0 1 20 0v16z" className="fill-accent/60" />
+    </>
+  ),
+  crowd: (
+    <>
+      <circle cx="92" cy="82" r="11" className="fill-brand-soft stroke-ink/60" strokeWidth="2.5" />
+      <circle cx="120" cy="72" r="11" className="fill-accent" />
+      <circle cx="148" cy="82" r="11" className="fill-brand-soft stroke-ink/60" strokeWidth="2.5" />
+      <circle cx="106" cy="106" r="11" className="fill-brand-soft stroke-ink/60" strokeWidth="2.5" />
+      <circle cx="134" cy="106" r="11" className="fill-brand-soft stroke-ink/60" strokeWidth="2.5" />
+    </>
+  ),
+  scoop: (
+    <>
+      <ellipse cx="102" cy="104" rx="26" ry="13" className="fill-brand-soft stroke-ink/60" strokeWidth="2.5" />
+      <circle cx="130" cy="94" r="11" className="fill-brand-soft stroke-ink/60" strokeWidth="2.5" />
+      <path d="M130 84c4-4 9-2 9 2l-6 3z" className="fill-brand-deep" />
+      <path d="M86 114v10M96 115v9M110 115v9M120 114v10" className="stroke-ink/60" strokeWidth="3.5" strokeLinecap="round" />
+      <path d="M150 104h20l-3 22h-14z" className="fill-accent/50 stroke-accent" strokeWidth="2" />
+    </>
+  ),
+  cow: (
+    <>
+      <ellipse cx="110" cy="98" rx="34" ry="19" className="fill-brand-soft stroke-ink/60" strokeWidth="2.5" />
+      <circle cx="150" cy="86" r="15" className="fill-brand-soft stroke-ink/60" strokeWidth="2.5" />
+      <path d="M139 74c-4-7 2-10 6-6M161 74c4-7-2-10-6-6" className="fill-none stroke-ink/60" strokeWidth="3" strokeLinecap="round" />
+      <ellipse cx="150" cy="92" rx="7" ry="5" className="fill-brand-deep/30" />
+      <path d="M88 116v12M102 118v10M118 118v10M132 116v12" className="stroke-ink/60" strokeWidth="4" strokeLinecap="round" />
+    </>
+  ),
+  foodwaste: (
+    <>
+      <circle cx="114" cy="98" r="30" className="fill-brand-soft stroke-ink/60" strokeWidth="2.5" />
+      <circle cx="114" cy="98" r="19" className="fill-none stroke-ink/40" strokeWidth="2" />
+      <path d="M114 88c7 0 7 10 0 10z" className="fill-accent/50" />
+      <path d="M150 68v58M158 68v18a8 8 0 0 1-16 0V68" className="fill-none stroke-ink/50" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round" />
+    </>
+  ),
+  genders: (
+    <>
+      <circle cx="82" cy="80" r="12" className="fill-brand-soft stroke-ink/60" strokeWidth="2.5" />
+      <path d="M70 126v-20a12 12 0 0 1 24 0v20z" className="fill-brand-soft stroke-ink/60" strokeWidth="2.5" />
+      <circle cx="120" cy="74" r="13" className="fill-accent" />
+      <path d="M107 128v-22a13 13 0 0 1 26 0v22z" className="fill-accent/70" />
+      <circle cx="158" cy="80" r="12" className="fill-brand-soft stroke-ink/60" strokeWidth="2.5" />
+      <path d="M146 126v-20a12 12 0 0 1 24 0v20z" className="fill-brand-soft stroke-ink/60" strokeWidth="2.5" />
+      <path d="M120 52s-9-5-9-11a4.5 4.5 0 0 1 9-1 4.5 4.5 0 0 1 9 1c0 6-9 11-9 11z" className="fill-accent" />
+    </>
+  ),
+  equal: (
+    <>
+      <circle cx="88" cy="76" r="13" className="fill-brand-soft stroke-ink/60" strokeWidth="2.5" />
+      <path d="M75 128v-22a13 13 0 0 1 26 0v22z" className="fill-brand-soft stroke-ink/60" strokeWidth="2.5" />
+      <circle cx="152" cy="76" r="13" className="fill-accent" />
+      <path d="M139 128v-22a13 13 0 0 1 26 0v22z" className="fill-accent/70" />
+      <path d="M112 94h16M112 106h16" className="stroke-ink/70" strokeWidth="4" strokeLinecap="round" />
+    </>
+  ),
+  space: (
+    <>
+      <circle cx="104" cy="92" r="31" className="fill-none stroke-accent/60" strokeWidth="2" strokeDasharray="3 5" />
+      <circle cx="104" cy="80" r="11" className="fill-brand-soft stroke-ink/60" strokeWidth="2.5" />
+      <path d="M93 124v-18a11 11 0 0 1 22 0v18z" className="fill-brand-soft stroke-ink/60" strokeWidth="2.5" />
+      <circle cx="162" cy="86" r="9" className="fill-brand-soft stroke-ink/60" strokeWidth="2.5" />
+      <path d="M153 124v-16a9 9 0 0 1 18 0v16z" className="fill-brand-soft stroke-ink/60" strokeWidth="2.5" />
     </>
   ),
 };

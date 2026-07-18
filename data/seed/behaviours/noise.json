@@ -29,5 +29,69 @@
       }
     ],
     "closer": "You couldn't have known. Now you do."
+  },
+  {
+    "id": "keep-your-audio-to-yourself",
+    "category": "noise",
+    "title": "Your reels. Your earphones.",
+    "norm": "Play your music, videos and calls on earphones in shared spaces - the bus, the train, the waiting room. Not everyone boarded for your soundtrack.",
+    "wit": "It's a great song. It's just not everyone's turn to hear it.",
+    "universality": "non_universal",
+    "affects": ["everyone in the compartment", "the person trying to rest", "you, when it's their turn"],
+    "illustration": "speaker",
+    "share": "comic",
+    "goesRight": "Earphones in, and a shared coach stays a place a tired person can close their eyes for a while.",
+    "impact": [
+      {
+        "cause": "Playing music, videos or reels on a loudspeaker or phone speaker in trains, buses and public places",
+        "mechanism": "Forcing sound on everyone nearby exposes them to environmental noise; WHO's systematic reviews find environmental noise is a top hazard to physical and mental health, including effects on sleep",
+        "effect": "Sustained unwanted noise wears on the health, sleep and calm of everyone within earshot",
+        "shared_resource": "noise",
+        "magnitude": null,
+        "jurisdiction": "EU",
+        "jurisdiction_transplant": true,
+        "evidence_tier": "mechanism",
+        "evidence_type": "illustrative",
+        "source_title": "New WHO noise guidelines for Europe released",
+        "publisher": "World Health Organization (WHO Regional Office for Europe)",
+        "source_url": "https://www.who.int/europe/news/item/10-10-2018-new-who-noise-guidelines-for-europe-released",
+        "retrieved_date": "2026-07-18",
+        "supported_by": "The just released WHO Environmental Noise Guidelines for the European Region provide strong evidence that noise is one of the top environmental hazards to both physical and mental health and well-being in the European Region.",
+        "caveat": "WHO's guidance covers the European Region, shown here for the mechanism; WHO notes the evidence also draws on research from other regions and has wider relevance."
+      }
+    ],
+    "closer": "You couldn't have known. Now you do."
+  },
+  {
+    "id": "honour-the-silence-zones",
+    "category": "noise",
+    "title": "Some streets are trying to heal.",
+    "norm": "Keep the noise down near hospitals, schools and courts, and ease off late at night. These are silence zones for a reason.",
+    "wit": "A hospital ward can hear a great deal more than you'd think.",
+    "universality": "universal",
+    "affects": ["patients trying to sleep", "students sitting exams", "night-shift workers resting by day", "a newborn nearby"],
+    "illustration": "silence",
+    "share": "sober",
+    "goesRight": "A hushed lane beside a hospital is one small kindness a whole ward can feel.",
+    "impact": [
+      {
+        "cause": "Making loud amplified noise - loudspeakers, horns, PA systems - near hospitals, schools and courts",
+        "mechanism": "India's Noise Pollution (Regulation and Control) Rules, 2000 declare the area within 100 metres of hospitals, educational institutions and courts a 'silence zone' where such noise is restricted, and also limit loudspeakers at night",
+        "effect": "Noise inside a silence zone is a legal violation and disturbs the sick, the studying and the courts",
+        "shared_resource": "noise",
+        "magnitude": null,
+        "jurisdiction": "IN",
+        "jurisdiction_transplant": false,
+        "evidence_tier": "mechanism",
+        "evidence_type": "illustrative",
+        "source_title": "Law on Noise Pollution (Lok Sabha reply on the Noise Pollution (Regulation and Control) Rules, 2000)",
+        "publisher": "Press Information Bureau, Ministry of Environment and Forests, Government of India",
+        "source_url": "https://archive.pib.gov.in/archive/releases98/lyr2001/raug2001/27082001/r2708200127.html",
+        "retrieved_date": "2026-07-18",
+        "supported_by": "Area not less than 100 metres around hospitals, educational institutions and courts to be declared as silence area for the purpose of these Rules.",
+        "caveat": "This official reply states the silence-zone rule; the specific night limit (10 pm - 6 am) and decibel standards live in the CPCB Rules text and are not quoted here."
+      }
+    ],
+    "closer": "You couldn't have known. Now you do."
   }
 ]

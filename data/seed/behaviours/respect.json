@@ -1,0 +1,95 @@
+[
+  {
+    "id": "every-gender-deserves-respect",
+    "category": "respect",
+    "title": "Every gender. Same respect.",
+    "norm": "Treat women, men, and transgender and non-binary people with the same everyday respect - use the name and pronoun they give you, and never mock, stare, or shut anyone out.",
+    "universality": "universal",
+    "affects": ["transgender and non-binary people", "women", "anyone who has ever felt 'othered'"],
+    "illustration": "genders",
+    "share": "sober",
+    "goesRight": "A place where every gender is treated as an equal is simply a place more people can live, learn, work and move through without fear.",
+    "impact": [
+      {
+        "cause": "Treating a transgender person as lesser",
+        "mechanism": "Indian law legally recognises transgender persons and forbids any person or establishment from discriminating against them in education, employment, healthcare and access to public services",
+        "effect": "Denying a transgender person equal respect or access is unlawful, not a matter of personal preference",
+        "shared_resource": "culture",
+        "magnitude": null,
+        "jurisdiction": "IN",
+        "jurisdiction_transplant": false,
+        "evidence_tier": "official",
+        "evidence_type": "illustrative",
+        "source_title": "The Transgender Persons (Protection of Rights) Act, 2019, Section 3 (Prohibition against discrimination)",
+        "publisher": "Parliament of India (statute text reproduced by Indian Kanoon)",
+        "source_url": "https://indiankanoon.org/doc/144076511/",
+        "retrieved_date": "2026-07-18",
+        "supported_by": "No person or establishment shall discriminate against a transgender person on any of the following grounds",
+        "caveat": "This states the statutory right, not a measured outcome. The 2019 Act followed the Supreme Court's NALSA v. Union of India (2014) judgment, which recognised transgender people as a third gender."
+      }
+    ],
+    "closer": "You couldn't have known. Now you do."
+  },
+  {
+    "id": "equal-respect-regardless-of-sex",
+    "category": "respect",
+    "title": "Equal, by right. Not by favour.",
+    "norm": "Give people of every sex the same turn, the same voice, the same seat at the table. Equality is not a favour anyone hands out - the Constitution already calls it a right.",
+    "universality": "universal",
+    "affects": ["women and girls", "anyone treated as lesser", "the fairness of the whole room"],
+    "illustration": "equal",
+    "share": "sober",
+    "goesRight": "When a room, a workplace or a home treats every sex as equal, it draws on everyone's talent instead of only half of it.",
+    "impact": [
+      {
+        "cause": "Treating someone as inferior because of their sex",
+        "mechanism": "The Constitution of India bars the State from discriminating against any citizen on grounds only of sex, among other grounds",
+        "effect": "Equal treatment regardless of sex is a constitutional guarantee, not a favour to be granted or withheld",
+        "shared_resource": "culture",
+        "magnitude": null,
+        "jurisdiction": "IN",
+        "jurisdiction_transplant": false,
+        "evidence_tier": "official",
+        "evidence_type": "illustrative",
+        "source_title": "Constitution of India, Article 15",
+        "publisher": "Constitution of India (text hosted by constitutionofindia.net / Centre for Law & Policy Research)",
+        "source_url": "https://www.constitutionofindia.net/articles/article-15-prohibition-of-discrimination-on-grounds-of-religion-race-caste-sex-or-place-of-birth/",
+        "retrieved_date": "2026-07-18",
+        "supported_by": "The State shall not discriminate against any citizen on grounds only of religion, race, caste, sex, place of birth or any of them.",
+        "caveat": "This is the verbatim text of Article 15, clause (1); it binds the State and states the constitutional right, not a measured outcome."
+      }
+    ],
+    "closer": "You couldn't have known. Now you do."
+  },
+  {
+    "id": "give-everyone-room",
+    "category": "respect",
+    "title": "Give everyone room to just be.",
+    "norm": "Let people move through public places without being stared at, followed, or hit on - most of all women and girls, who face it most. Room is a kindness. Under the law, it is also a duty.",
+    "universality": "non_universal",
+    "affects": ["women and girls", "anyone who feels watched", "the ease of the whole street"],
+    "illustration": "space",
+    "share": "sober",
+    "goesRight": "When a street lets everyone pass unbothered, more people use it - later, more freely, and more safely for it.",
+    "impact": [
+      {
+        "cause": "Staring at, following, or making unwanted advances toward someone in public",
+        "mechanism": "Under the Bharatiya Nyaya Sanhita, a man who follows a woman or repeatedly tries to contact her to force personal interaction despite her clear disinterest commits the criminal offence of stalking",
+        "effect": "Such conduct is a punishable offence - imprisonment and a fine - not merely rude behaviour",
+        "shared_resource": "safety",
+        "magnitude": null,
+        "jurisdiction": "IN",
+        "jurisdiction_transplant": false,
+        "evidence_tier": "official",
+        "evidence_type": "illustrative",
+        "source_title": "Bharatiya Nyaya Sanhita, 2023, Section 78 (Stalking)",
+        "publisher": "Parliament of India (statute text reproduced by Devgan.in)",
+        "source_url": "https://devgan.in/bns/section/78/",
+        "retrieved_date": "2026-07-18",
+        "supported_by": "Any man who, (i) follows a woman and contacts, or attempts to contact such woman to foster personal interaction repeatedly despite a clear indication of disinterest by such woman; or (ii) monitors the use by a woman of the internet, e-mail or any other form of electronic communication, commits the offence of stalking",
+        "caveat": "This is the statutory definition of the offence (Section 78, the successor to IPC Section 354D from 1 July 2024), not a measured outcome. As worded, the provision addresses a man stalking a woman."
+      }
+    ],
+    "closer": "You couldn't have known. Now you do."
+  }
+]
