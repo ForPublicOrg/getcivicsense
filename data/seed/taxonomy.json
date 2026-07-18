@@ -1,0 +1,36 @@
+{
+  "categories": [
+    {
+      "id": "roads",
+      "label": "The Road",
+      "icon": "road",
+      "question": "Who else is on the road with you?",
+      "blurb": "The road: where everyone is an excellent driver, and the problem is always other people.",
+      "order": 1
+    },
+    {
+      "id": "noise",
+      "label": "Noise",
+      "icon": "horn",
+      "question": "Who did that horn actually reach?",
+      "blurb": "A street is a shared room with the walls taken out. More people can hear you than you think.",
+      "order": 2
+    },
+    {
+      "id": "clean",
+      "label": "Clean, Water & Waste",
+      "icon": "bin",
+      "question": "Where does the wrapper go next?",
+      "blurb": "Everything we drop lands somewhere. And everyone downstream is someone.",
+      "order": 3
+    },
+    {
+      "id": "transport",
+      "label": "Buses, Trains & Queues",
+      "icon": "bus",
+      "question": "Whose turn is it, really?",
+      "blurb": "A queue is just a few people agreeing on the order of things. You are also people.",
+      "order": 4
+    }
+  ]
+}

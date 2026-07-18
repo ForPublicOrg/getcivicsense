@@ -1,0 +1,65 @@
+[
+  {
+    "id": "bin-the-wrapper",
+    "category": "clean",
+    "title": "A wrapper is light. A flood is not.",
+    "norm": "Carry your wrapper to a bin instead of dropping it on the street or into a drain.",
+    "wit": "One wrapper is very light. Four hundred wrappers are a monsoon plan nobody voted for.",
+    "universality": "universal",
+    "affects": ["your own street", "the city in monsoon", "everyone nearby in dengue season"],
+    "illustration": "wrapper",
+    "share": "comic",
+    "goesRight": "Wrappers that reach a bin keep drains clear, so the water goes where it should when the rain comes.",
+    "impact": [
+      {
+        "cause": "Litter and plastic dropped in streets and open drains",
+        "mechanism": "Waste blocks storm drains so water pools; discarded containers hold that water, where Aedes mosquitoes breed",
+        "effect": "Wards with poor drain clearance tend to see more waterlogging and more mosquito-borne disease",
+        "shared_resource": "disease",
+        "jurisdiction": "IN-WB",
+        "jurisdiction_transplant": false,
+        "evidence_tier": "suggestive",
+        "evidence_type": "measured",
+        "source_title": "Household wastes as larval habitats of dengue vectors (Kolkata)",
+        "publisher": "Peer-reviewed study (PMC / NCBI)",
+        "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4598039/",
+        "retrieved_date": "2026-07-18",
+        "supported_by": "Discarded household waste and water-holding containers were documented as principal larval habitats for dengue vectors in urban India.",
+        "caveat": "An observational link: littering rarely occurs apart from other sanitation gaps, so this shows association, not a clean cause-and-effect number."
+      }
+    ],
+    "closer": "You couldn't have known. Now you do."
+  },
+  {
+    "id": "wash-hands-with-soap",
+    "category": "clean",
+    "title": "Soap. After the toilet. Before food.",
+    "norm": "Wash your hands with soap after using the toilet and before cooking or eating - about twenty seconds.",
+    "wit": "Water alone is a rumour of cleaning. Soap is the actual meeting.",
+    "universality": "universal",
+    "affects": ["your household", "young children especially"],
+    "illustration": "handwash",
+    "share": "comic",
+    "goesRight": "A soapy twenty seconds is one of the cheapest, best-proven ways to stop a household illness before it starts.",
+    "impact": [
+      {
+        "cause": "Washing hands with soap at key moments",
+        "mechanism": "Soap lifts faecal and respiratory germs off the skin, breaking the route from hands to mouth and food",
+        "effect": "Substantially fewer episodes of diarrhoea, which is a major cause of child illness in India",
+        "shared_resource": "disease",
+        "magnitude": { "value": 30, "unit": "% fewer diarrhoea episodes (about a third)", "basis": "pooled trials, low- and middle-income settings" },
+        "jurisdiction": "GLOBAL",
+        "jurisdiction_transplant": true,
+        "evidence_tier": "strong",
+        "evidence_type": "measured",
+        "source_title": "Hand-washing promotion for preventing diarrhoea (Cochrane Review, 2021)",
+        "publisher": "Cochrane",
+        "source_url": "https://www.cochranelibrary.com/cdsr/doi/10.1002/14651858.CD004265.pub4/full",
+        "retrieved_date": "2026-07-18",
+        "supported_by": "Handwashing promotion reduced diarrhoea episodes by around 30% in reviewed settings.",
+        "caveat": "Pooled from many low- and middle-income settings including South Asia; a strong, repeatedly-replicated finding."
+      }
+    ],
+    "closer": "You couldn't have known. Now you do."
+  }
+]

@@ -1,0 +1,97 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* Self-hosted Manrope can be added later via next/font/local; a clean system
+     stack keeps the build hermetic and fast for now. Noto keeps Indic crisp. */
+  --font-sans: 'Segoe UI', system-ui, -apple-system, 'Noto Sans', 'Noto Sans Devanagari',
+    'Noto Sans Tamil', 'Noto Sans Bengali', sans-serif;
+
+  --color-ink: 28 32 42;
+  --color-ink-soft: 74 81 96;
+  --color-ink-faint: 124 132 150;
+
+  --color-paper: 255 255 255;
+  --color-paper-soft: 248 247 244;
+  --color-paper-sink: 240 238 232;
+
+  --color-line: 230 226 218;
+
+  --color-brand: 79 70 229;
+  --color-brand-ink: 55 48 163;
+  --color-brand-soft: 238 241 255;
+  --color-brand-deep: 49 46 129;
+
+  --color-accent: 217 119 6;
+  --color-accent-ink: 146 64 14;
+  --color-accent-soft: 255 243 226;
+}
+
+.dark {
+  --color-ink: 240 240 240;
+  --color-ink-soft: 184 188 198;
+  --color-ink-faint: 150 154 164;
+
+  --color-paper: 20 21 26;
+  --color-paper-soft: 12 13 17;
+  --color-paper-sink: 32 34 42;
+
+  --color-line: 44 46 54;
+
+  --color-brand: 129 128 245;
+  --color-brand-ink: 199 202 254;
+  --color-brand-soft: 30 31 52;
+  --color-brand-deep: 99 102 241;
+
+  --color-accent: 245 176 80;
+  --color-accent-ink: 254 235 200;
+  --color-accent-soft: 46 32 12;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-sans);
+  @apply bg-paper-soft text-ink antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+/* Soft aurora wash behind the content - low saturation, non-interactive. */
+.aurora {
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+  overflow: hidden;
+}
+.aurora::before,
+.aurora::after {
+  content: '';
+  position: absolute;
+  inset: -25%;
+  background: radial-gradient(closest-side, rgb(var(--color-brand) / 0.14), transparent);
+  animation: aurora-drift 24s ease-in-out infinite;
+}
+.aurora::after {
+  background: radial-gradient(closest-side, rgb(var(--color-accent) / 0.1), transparent);
+  animation-delay: -8s;
+  inset: -10% -25% -25% 10%;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  .aurora::before,
+  .aurora::after {
+    animation: none;
+  }
+}
+
+/* details marker reset (we render our own chevron) */
+summary::-webkit-details-marker {
+  display: none;
+}

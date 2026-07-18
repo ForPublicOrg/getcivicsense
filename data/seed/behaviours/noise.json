@@ -1,0 +1,33 @@
+[
+  {
+    "id": "the-horn-is-not-a-lift-button",
+    "category": "noise",
+    "title": "The horn is not a lift button.",
+    "norm": "Use the horn only to warn someone of danger. Pressing it in a jam, at a red light, or near a hospital doesn't move the traffic.",
+    "wit": "The car in front also cannot fly. We checked.",
+    "universality": "universal",
+    "affects": ["everyone on the street", "patients nearby", "you, over the years"],
+    "illustration": "horn",
+    "share": "comic",
+    "goesRight": "A street where horns mean 'danger' and nothing else is calmer, safer, and easier to sleep beside.",
+    "impact": [
+      {
+        "cause": "Constant, needless honking in traffic",
+        "mechanism": "Sustained road-traffic noise above WHO's recommended levels keeps the body in a low-grade stress response and breaks up sleep",
+        "effect": "Over time, links to higher stress, disturbed sleep, raised blood pressure and hearing damage",
+        "shared_resource": "noise",
+        "jurisdiction": "EU",
+        "jurisdiction_transplant": true,
+        "evidence_tier": "strong",
+        "evidence_type": "measured",
+        "source_title": "Environmental Noise Guidelines for the European Region",
+        "publisher": "World Health Organization (Europe)",
+        "source_url": "https://www.who.int/europe/publications/i/item/9789289053563",
+        "retrieved_date": "2026-07-18",
+        "supported_by": "WHO recommends keeping road-traffic noise below 53 dB Lden (day) and 45 dB Lnight to protect health.",
+        "caveat": "The thresholds are WHO's European guidance, shown for the mechanism. India's own CPCB limits (55 dB day / 45 dB night in residential zones) are the local rule."
+      }
+    ],
+    "closer": "You couldn't have known. Now you do."
+  }
+]

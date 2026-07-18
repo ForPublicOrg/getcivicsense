@@ -1,0 +1,64 @@
+[
+  {
+    "id": "let-people-off-first",
+    "category": "transport",
+    "title": "Let them off. Then get on.",
+    "norm": "Stand to the side of the door and let people get off the bus or train before you board.",
+    "wit": "Two crowds trying to pass through one door is just physics, losing.",
+    "universality": "universal",
+    "affects": ["everyone at the door", "elders and children in the crush"],
+    "illustration": "alight",
+    "share": "comic",
+    "goesRight": "Off first, on second, and the doorway clears in seconds - the train waits less and nobody gets crushed.",
+    "impact": [
+      {
+        "cause": "Boarding while others are still trying to get off",
+        "mechanism": "Two opposing crowds jam the doorway, so the doors stay open longer at every stop and the crush-risk rises",
+        "effect": "Slower journeys for everyone and a real fall-and-injury risk for elders and children",
+        "shared_resource": "time",
+        "jurisdiction": "GLOBAL",
+        "jurisdiction_transplant": true,
+        "evidence_tier": "mechanism",
+        "evidence_type": "measured",
+        "source_title": "Passenger boarding-and-alighting and dwell time",
+        "publisher": "Transit operations research (e.g. Transportation Research Board)",
+        "source_url": "https://www.trb.org/",
+        "retrieved_date": "2026-07-18",
+        "supported_by": "Simultaneous boarding and alighting increases door dwell time and passenger conflict at the doorway.",
+        "caveat": "Well-established operations principle; we show the mechanism rather than an Indian-network number."
+      }
+    ],
+    "closer": "You couldn't have known. Now you do."
+  },
+  {
+    "id": "keep-the-priority-seat-free",
+    "category": "transport",
+    "title": "The priority seat is a promise.",
+    "norm": "Keep the reserved seat free for those who need it - elders, pregnant women, and people with disabilities - and give yours up if asked.",
+    "wit": "It costs you a two-minute stand. It saves someone a fall.",
+    "universality": "universal",
+    "affects": ["elders", "pregnant women", "people with disabilities"],
+    "illustration": "seat",
+    "share": "comic",
+    "goesRight": "A free priority seat lets the people who most need to sit travel safely, with dignity, and without asking.",
+    "impact": [
+      {
+        "cause": "Occupying a reserved seat when you don't need it",
+        "mechanism": "People with limited mobility must stand and are thrown off balance by braking and jolts in a moving vehicle",
+        "effect": "Avoidable falls and injuries, and the everyday indignity of being left standing",
+        "shared_resource": "safety",
+        "jurisdiction": "IN",
+        "jurisdiction_transplant": false,
+        "evidence_tier": "mechanism",
+        "evidence_type": "illustrative",
+        "source_title": "Rights of Persons with Disabilities Act, 2016 - accessible transport and reserved seating",
+        "publisher": "Government of India",
+        "source_url": "https://www.disabilityaffairs.gov.in/content/page/acts.php",
+        "retrieved_date": "2026-07-18",
+        "supported_by": "Indian law provides for reserved seating and accessible public transport for persons with disabilities.",
+        "caveat": "Framed as the reason for the norm, not as a measured injury statistic."
+      }
+    ],
+    "closer": "You couldn't have known. Now you do."
+  }
+]

@@ -1,0 +1,96 @@
+[
+  {
+    "id": "wear-a-helmet",
+    "category": "roads",
+    "title": "Helmet on. Every ride.",
+    "norm": "Wear a helmet whenever you ride or sit on a two-wheeler - even for a two-minute trip to the market.",
+    "wit": "The helmet isn't scared of you looking uncool. It just wants you home for dinner.",
+    "universality": "universal",
+    "affects": ["you", "your family"],
+    "illustration": "helmet",
+    "share": "comic",
+    "goesRight": "Strapped on, a helmet turns most crashes that would have been fatal into ones you walk away from.",
+    "impact": [
+      {
+        "cause": "Riding a two-wheeler without a helmet",
+        "mechanism": "In a crash the unprotected head takes the full impact; a helmet spreads and absorbs that energy before it reaches the skull",
+        "effect": "Far higher chance of a fatal or life-changing head injury",
+        "shared_resource": "safety",
+        "magnitude": { "value": 50029, "unit": "people killed without a helmet", "basis": "India, 2022" },
+        "jurisdiction": "IN",
+        "jurisdiction_transplant": false,
+        "evidence_tier": "official",
+        "evidence_type": "measured",
+        "source_title": "Road Accidents in India 2022",
+        "publisher": "Ministry of Road Transport & Highways (MoRTH)",
+        "source_url": "https://morth.gov.in/road-accidents-india-2022",
+        "retrieved_date": "2026-07-18",
+        "supported_by": "50,029 persons died while not wearing a helmet in 2022; two-wheelers accounted for 44.5% of all road-accident deaths."
+      }
+    ],
+    "closer": "You couldn't have known. Now you do."
+  },
+  {
+    "id": "buckle-the-seatbelt",
+    "category": "roads",
+    "title": "Belt on. Front and back.",
+    "norm": "Wear a seatbelt in a car - in the front and the back. Ask the people you're travelling with to do the same.",
+    "wit": "The belt has one job: keep you inside the car when the car changes its mind.",
+    "universality": "universal",
+    "affects": ["you", "fellow passengers"],
+    "illustration": "seatbelt",
+    "share": "comic",
+    "goesRight": "Buckled in, you stay in your seat and inside the car's survival space instead of being thrown around it.",
+    "impact": [
+      {
+        "cause": "Travelling in a car without a seatbelt",
+        "mechanism": "In a sudden stop an unbelted person keeps moving at the car's old speed and is thrown into the interior or ejected",
+        "effect": "Sharply higher risk of fatal injury, including for rear passengers",
+        "shared_resource": "safety",
+        "magnitude": { "value": 16000, "unit": "car-occupant deaths without a seatbelt (approx.)", "basis": "India, 2022" },
+        "jurisdiction": "IN",
+        "jurisdiction_transplant": false,
+        "evidence_tier": "official",
+        "evidence_type": "measured",
+        "source_title": "Road Accidents in India 2022",
+        "publisher": "Ministry of Road Transport & Highways (MoRTH)",
+        "source_url": "https://morth.gov.in/road-accidents-india-2022",
+        "retrieved_date": "2026-07-18",
+        "supported_by": "Around 16,700 car-occupant deaths in 2022 involved persons not wearing seat belts; rear-seat belt use is especially low.",
+        "caveat": "Figure is the national total of non-belted occupant deaths, not a per-person risk multiplier."
+      }
+    ],
+    "closer": "You couldn't have known. Now you do."
+  },
+  {
+    "id": "give-way-to-an-ambulance",
+    "category": "roads",
+    "title": "See the ambulance? Make a gap.",
+    "norm": "When an ambulance is behind you, ease to the left and let it pass. Don't tuck in behind it to skip the traffic.",
+    "wit": "The person inside is having a much worse day than your commute.",
+    "universality": "universal",
+    "affects": ["a stranger in an emergency", "their family"],
+    "illustration": "ambulance",
+    "share": "sober",
+    "goesRight": "A clear gap can be the minutes that decide whether someone reaches care in time.",
+    "impact": [
+      {
+        "cause": "Traffic that yields quickly to emergency vehicles",
+        "mechanism": "For emergencies like cardiac arrest and major trauma, the chance of survival falls with every minute before care begins",
+        "effect": "Faster passage means more people reach hospital inside the window where treatment still works",
+        "shared_resource": "safety",
+        "jurisdiction": "GLOBAL",
+        "jurisdiction_transplant": true,
+        "evidence_tier": "mechanism",
+        "evidence_type": "measured",
+        "source_title": "Emergency and trauma care - time-critical conditions",
+        "publisher": "World Health Organization",
+        "source_url": "https://www.who.int/health-topics/emergency-care",
+        "retrieved_date": "2026-07-18",
+        "supported_by": "Survival from time-critical emergencies such as cardiac arrest declines rapidly with each minute of delay to treatment.",
+        "caveat": "We show the mechanism, not an Indian survival percentage - a single act of yielding cannot be assigned a clean national number."
+      }
+    ],
+    "closer": "You couldn't have known. Now you do."
+  }
+]
