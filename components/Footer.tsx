@@ -4,6 +4,8 @@ import { useI18n } from '@/lib/i18n/provider';
 import { SIBLING_URL, REPO_URL } from '@/lib/site';
 import Icon from './Icon';
 
+const ATHENA_URL = 'https://tryathena.dev';
+
 export default function Footer() {
   const { t, locale } = useI18n();
   return (
@@ -61,6 +63,18 @@ export default function Footer() {
           >
             {t('footer.openSource')}
             <Icon name="external" size={12} />
+          </a>
+          <span aria-hidden="true">·</span>
+          {/* Attribution: built with Athena (tryathena.dev). Owl vendored in public/. */}
+          <a
+            href={ATHENA_URL}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-1.5 text-ink-faint underline-offset-2 hover:text-brand hover:underline"
+          >
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img src="/athena.svg" alt="" width={13} height={13} className="opacity-80" />
+            {t('footer.builtWith', { name: 'Athena' })}
           </a>
         </div>
       </div>
