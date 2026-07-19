@@ -44,7 +44,14 @@ type SceneName =
   | 'foodwaste'
   | 'genders'
   | 'equal'
-  | 'space';
+  | 'space'
+  | 'unity'
+  | 'heritage'
+  | 'yoga'
+  | 'dance'
+  | 'peaks'
+  | 'festival'
+  | 'food';
 
 const SCENES: Record<SceneName, React.ReactNode> = {
   helmet: (
@@ -392,6 +399,86 @@ const SCENES: Record<SceneName, React.ReactNode> = {
       <path d="M93 124v-18a11 11 0 0 1 22 0v18z" className="fill-brand-soft stroke-ink/60" strokeWidth="2.5" />
       <circle cx="162" cy="86" r="9" className="fill-brand-soft stroke-ink/60" strokeWidth="2.5" />
       <path d="M153 124v-16a9 9 0 0 1 18 0v16z" className="fill-brand-soft stroke-ink/60" strokeWidth="2.5" />
+    </>
+  ),
+  // Many people of different sizes sheltered under one shared arch - difference,
+  // held together.
+  unity: (
+    <>
+      <path d="M58 78a62 32 0 0 1 124 0" className="fill-none stroke-brand" strokeWidth="3" strokeLinecap="round" />
+      <circle cx="88" cy="92" r="10" className="fill-brand-soft stroke-ink/60" strokeWidth="2.5" />
+      <path d="M77 128v-16a11 11 0 0 1 22 0v16z" className="fill-brand-soft stroke-ink/60" strokeWidth="2.5" />
+      <circle cx="120" cy="86" r="12" className="fill-accent" />
+      <path d="M107 128v-18a13 13 0 0 1 26 0v18z" className="fill-accent/70" />
+      <circle cx="152" cy="92" r="10" className="fill-brand-soft stroke-ink/60" strokeWidth="2.5" />
+      <path d="M141 128v-16a11 11 0 0 1 22 0v16z" className="fill-brand-soft stroke-ink/60" strokeWidth="2.5" />
+    </>
+  ),
+  // A domed monument with minarets - a World Heritage silhouette.
+  heritage: (
+    <>
+      <path d="M72 130h96" className="stroke-ink/60" strokeWidth="4" strokeLinecap="round" />
+      <rect x="99" y="88" width="42" height="42" className="fill-brand-soft stroke-ink/60" strokeWidth="2.5" />
+      <path d="M99 88a21 21 0 0 1 42 0z" className="fill-brand-soft stroke-ink/60" strokeWidth="2.5" />
+      <path d="M120 67v-9" className="stroke-accent" strokeWidth="3" strokeLinecap="round" />
+      <circle cx="120" cy="54" r="3.5" className="fill-accent" />
+      <path d="M112 130v-19a8 8 0 0 1 16 0v19" className="fill-none stroke-ink/50" strokeWidth="2.5" />
+      <rect x="80" y="94" width="9" height="36" rx="3" className="fill-brand-soft stroke-ink/60" strokeWidth="2.5" />
+      <rect x="151" y="94" width="9" height="36" rx="3" className="fill-brand-soft stroke-ink/60" strokeWidth="2.5" />
+      <circle cx="84.5" cy="89" r="3.5" className="fill-brand-soft stroke-ink/60" strokeWidth="2" />
+      <circle cx="155.5" cy="89" r="3.5" className="fill-brand-soft stroke-ink/60" strokeWidth="2" />
+    </>
+  ),
+  // A calm seated figure - yoga, a living tradition done not stored.
+  yoga: (
+    <>
+      <circle cx="120" cy="70" r="11" className="fill-accent" />
+      <path d="M120 82c-17 0-29 25-29 46h58c0-21-12-46-29-46z" className="fill-brand-soft stroke-ink/60" strokeWidth="2.5" />
+      <path d="M95 118c8-6 16-9 25-9s17 3 25 9" className="fill-none stroke-ink/50" strokeWidth="3" strokeLinecap="round" />
+      <path d="M150 52l2.6 5.4 5.4.6-3.8 3.6.8 5.4-5-2.6-5 2.6.8-5.4-3.8-3.6 5.4-.6z" className="fill-accent" />
+    </>
+  ),
+  // A dancer mid-pose, flared skirt and raised arms - the classical stage.
+  dance: (
+    <>
+      <circle cx="118" cy="50" r="9" className="fill-brand-soft stroke-ink/60" strokeWidth="2.5" />
+      <path d="M118 59v30" className="stroke-ink/60" strokeWidth="5" strokeLinecap="round" />
+      <path d="M118 70l-22-6M118 70l22 8" className="stroke-accent" strokeWidth="4" strokeLinecap="round" />
+      <path d="M100 130l18-34 18 34z" className="fill-brand-soft stroke-ink/60" strokeWidth="2.5" />
+      <path d="M96 60l2.2 4.6 4.6.6-3.2 3 .8 4.6-4.4-2.2-4.4 2.2.8-4.6-3.2-3 4.6-.6z" className="fill-accent" />
+    </>
+  ),
+  // Snow-capped peaks under a sun - the range that holds the wild things.
+  peaks: (
+    <>
+      <circle cx="160" cy="56" r="12" className="fill-accent" />
+      <path d="M62 130l32-56 22 32 16-24 30 48z" className="fill-brand-soft stroke-ink/60" strokeWidth="2.5" />
+      <path d="M94 74l-8 14h16z" className="fill-paper" />
+      <path d="M132 82l-7 12h14z" className="fill-paper" />
+      <path d="M60 130h116" className="stroke-ink/50" strokeWidth="3" strokeLinecap="round" />
+    </>
+  ),
+  // A string of festive hanging lights - the calendar that never stops.
+  festival: (
+    <>
+      <path d="M60 58q60 42 120 0" className="fill-none stroke-ink/50" strokeWidth="2.5" />
+      <path d="M84 62v10M108 68v10M132 68v10M156 62v10" className="stroke-ink/40" strokeWidth="2" strokeLinecap="round" />
+      <circle cx="84" cy="80" r="7" className="fill-accent" />
+      <circle cx="108" cy="86" r="7" className="fill-brand" />
+      <circle cx="132" cy="86" r="7" className="fill-accent" />
+      <circle cx="156" cy="80" r="7" className="fill-brand" />
+      <path d="M120 108l2.8 5.8 5.8.6-4 3.8.8 5.8-5.4-2.8-5.4 2.8.8-5.8-4-3.8 5.8-.6z" className="fill-accent" />
+    </>
+  ),
+  // A thali - round plate ringed with small bowls, the same grain a hundred ways.
+  food: (
+    <>
+      <circle cx="120" cy="98" r="40" className="fill-brand-soft stroke-ink/60" strokeWidth="2.5" />
+      <circle cx="120" cy="98" r="30" className="fill-none stroke-ink/30" strokeWidth="2" />
+      <circle cx="120" cy="104" r="8" className="fill-accent/40 stroke-accent" strokeWidth="2" />
+      <circle cx="120" cy="74" r="9" className="fill-paper stroke-ink/50" strokeWidth="2" />
+      <circle cx="98" cy="112" r="9" className="fill-paper stroke-ink/50" strokeWidth="2" />
+      <circle cx="142" cy="112" r="9" className="fill-paper stroke-ink/50" strokeWidth="2" />
     </>
   ),
 };

@@ -28,6 +28,9 @@ export default function Header() {
           </div>
 
           <nav className="ml-auto flex items-center gap-1 text-sm font-medium text-ink-soft" aria-label="Primary">
+            <Link href="/discover-india" className="hidden rounded-full px-3 py-1.5 hover:bg-paper-sink hover:text-brand md:block">
+              {t('nav.discover')}
+            </Link>
             <Link href="/methodology" className="hidden rounded-full px-3 py-1.5 hover:bg-paper-sink hover:text-brand lg:block">
               {t('nav.methodology')}
             </Link>

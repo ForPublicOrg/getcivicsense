@@ -30,6 +30,7 @@ export default function Footer() {
             )}
           </div>
           <nav className="grid grid-cols-2 gap-x-10 gap-y-2.5 text-sm" aria-label="Footer">
+            <Link href="/discover-india" className="text-ink-soft hover:text-brand">{t('nav.discover')}</Link>
             <Link href="/for-kids" className="text-ink-soft hover:text-brand">{t('kids.navLabel')}</Link>
             <Link href="/methodology" className="text-ink-soft hover:text-brand">{t('nav.methodology')}</Link>
             <Link href="/sources" className="text-ink-soft hover:text-brand">{t('nav.sources')}</Link>

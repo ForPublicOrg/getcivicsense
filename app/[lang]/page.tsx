@@ -4,6 +4,7 @@ import { t } from '@/lib/i18n';
 import { getAllBehaviours, getCategories } from '@/lib/content';
 import CategoryGrid from '@/components/CategoryGrid';
 import BehaviourCard from '@/components/BehaviourCard';
+import Illustration from '@/components/Illustration';
 import Icon, { type IconName } from '@/components/Icon';
 import { LanguageHint } from '@/components/LanguageSwitcher';
 import { Analytics } from '@vercel/analytics/next';
@@ -106,6 +107,28 @@ export default async function Home({ params }: { params: Promise<LangParams> }) 
             <Icon name="search" size={16} /> {t(dict, 'search.title')}
           </Link>
         </div>
+      </section>
+
+      {/* Discover India - the pride that makes the small things worth doing. A
+          big, visual, tappable band so it works for a child or a grandparent. */}
+      <section aria-labelledby="discover-h" className="pb-12">
+        <Link
+          href="/discover-india"
+          className="group flex flex-col items-start gap-5 overflow-hidden rounded-3xl border border-line bg-gradient-to-br from-brand-soft/70 to-paper p-6 shadow-soft transition hover:-translate-y-0.5 hover:border-brand/40 hover:shadow-lift sm:flex-row sm:items-center sm:p-7"
+        >
+          <Illustration name="unity" className="aspect-[3/2] w-full shrink-0 overflow-hidden rounded-2xl sm:w-56" />
+          <div className="min-w-0">
+            <p className="text-xs font-bold uppercase tracking-wide text-brand">{t(dict, 'discover.kicker')}</p>
+            <h2 id="discover-h" className="mt-1.5 text-2xl font-extrabold tracking-tight text-ink">
+              {t(dict, 'discover.home.title')}
+            </h2>
+            <p className="mt-2 text-[15px] leading-relaxed text-ink-soft">{t(dict, 'discover.home.body')}</p>
+            <span className="mt-3 inline-flex items-center gap-1.5 text-sm font-bold text-brand">
+              {t(dict, 'discover.home.cta')}
+              <Icon name="chevron" size={15} className="-rotate-90 transition group-hover:translate-x-0.5" />
+            </span>
+          </div>
+        </Link>
       </section>
 
       {/* Web analytics only on the landing page, to stay within the free

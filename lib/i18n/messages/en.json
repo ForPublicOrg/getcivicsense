@@ -25,7 +25,8 @@
     "sources": "Sources",
     "search": "Search",
     "privacy": "Privacy",
-    "language": "Language"
+    "language": "Language",
+    "discover": "Discover India"
   },
   "card": {
     "why": "Why it matters",
@@ -91,5 +92,60 @@
     "respect": "Always with love and respect. Your elders have taught you a thousand things. This is just one you get to teach back.",
     "closer": "You couldn't have known. Now you do. Now go be the reason your street gets a little kinder.",
     "explore": "Explore the places"
+  },
+  "discover": {
+    "kicker": "Discover India",
+    "title": "One country, a thousand ways of being it",
+    "intro": "So many languages, so many festivals, so many kitchens and songs - and somehow, one country holding them all. This is the shared home your civic sense is for. Here is a little of what we are all looking after.",
+    "everyone": "For everyone. No account, nothing collected about you.",
+    "quoteLead": "The Constitution asks this of every citizen:",
+    "cards": {
+      "unity": {
+        "title": "Held together by difference",
+        "body": "India is not one people made the same. It is many peoples who share a country - and the difference is not a flaw to fix. It is the whole idea."
+      },
+      "languages": {
+        "title": "A land that speaks in hundreds of tongues",
+        "body": "Cross a district line and the script on the shop signs changes. None of them is the one true language of India. Every single one of them is.",
+        "fact": "{scheduled} languages are written into the Constitution. The last census counted {languages} in all."
+      },
+      "heritage": {
+        "title": "Wonders the whole world agreed to protect",
+        "body": "A marble tomb, rock-cut caves, a mountain railway, tiger-filled mangroves - places so remarkable that the world pledged to help keep them standing.",
+        "fact": "{count} places in India are UNESCO World Heritage Sites."
+      },
+      "traditions": {
+        "title": "Heritage you cannot keep in a museum",
+        "body": "Yoga on a mat, a festival that fills a whole city, a craft passed from hand to hand - traditions that stay alive by being done, not by being stored.",
+        "fact": "{count} living traditions from India are on UNESCO's heritage list."
+      },
+      "dance": {
+        "title": "Many ways a body tells a story",
+        "body": "From Bharatanatyam to Sattriya, each classical dance grew in a different corner of the country, and each still speaks its region without a single word.",
+        "fact": "{count} classical dance traditions are recognised by the Sangeet Natak Akademi."
+      },
+      "wild": {
+        "title": "From snow leopards to mangrove tigers",
+        "body": "Himalaya to desert to coral coast to rainforest - a single country holding a startling share of the planet's wild life.",
+        "fact": "More than {pct} of the world's wild tigers live in India."
+      },
+      "festival": {
+        "title": "A calendar that never really stops",
+        "body": "A temple bell, a call to prayer, a church choir, the free kitchen at a gurudwara - often on the same street, often in the same week. Someone nearby is always celebrating something."
+      },
+      "food": {
+        "title": "A new kitchen every few hundred kilometres",
+        "body": "The same grain becomes a hundred different dinners. Every region feeds you its own way - and every region is quietly certain that its way is the best."
+      }
+    },
+    "closerKicker": "And here is the part that is yours",
+    "closerTitle": "This is what the small things protect",
+    "closerBody": "Not with grand gestures, but with the wrapper you carry to the bin, the horn you do not lean on, the room you make for a stranger. A country this varied only holds together if each of us keeps our own small corner of it kind.",
+    "closerCta": "See the small things",
+    "home": {
+      "title": "Before the small things, the big picture",
+      "body": "The heritage, the hundreds of languages, the wild places, the everyday wonder - a look at the India your civic sense is for.",
+      "cta": "Discover India"
+    }
   }
 }
