@@ -43,18 +43,6 @@ export default async function ForKidsPage({ params }: { params: Promise<LangPara
       <h1 className="mt-4 text-3xl font-extrabold leading-tight tracking-tight text-ink sm:text-4xl">{T('kids.title')}</h1>
       <p className="mt-3 text-lg text-ink-soft">{T('kids.intro')}</p>
 
-      {/* How to read a card */}
-      <section className="mt-10">
-        <h2 className="flex items-center gap-2 text-sm font-bold uppercase tracking-wide text-ink-faint">
-          <Icon name="search" size={15} className="text-brand" /> {T('kids.readHeading')}
-        </h2>
-        <ol className="mt-3 space-y-2.5">
-          <Step n={1} title={T('kids.read1Title')} body={T('kids.read1')} />
-          <Step n={2} title={T('kids.read2Title')} body={T('kids.read2')} />
-          <Step n={3} title={T('kids.read3Title')} body={T('kids.read3')} />
-        </ol>
-      </section>
-
       {/* How to teach your grown-ups */}
       <section className="mt-10">
         <h2 className="flex items-center gap-2 text-sm font-bold uppercase tracking-wide text-ink-faint">
