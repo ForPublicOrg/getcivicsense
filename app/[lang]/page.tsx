@@ -6,6 +6,7 @@ import CategoryGrid from '@/components/CategoryGrid';
 import BehaviourCard from '@/components/BehaviourCard';
 import Icon, { type IconName } from '@/components/Icon';
 import { LanguageHint } from '@/components/LanguageSwitcher';
+import { Analytics } from '@vercel/analytics/next';
 
 const FEATURED = ['the-horn-is-not-a-lift-button', 'bin-the-wrapper', 'wear-a-helmet'];
 const STEPS: { icon: IconName; key: string }[] = [
@@ -106,6 +107,10 @@ export default async function Home({ params }: { params: Promise<LangParams> }) 
           </Link>
         </div>
       </section>
+
+      {/* Web analytics only on the landing page, to stay within the free
+          analytics-events budget (not mounted in the root layout). */}
+      <Analytics />
     </div>
   );
 }
